@@ -19,22 +19,23 @@ const LoginSignUp = () => {
             <div className='inputs'>
                 <div className='input'>
                     {/* <img  src ='' alt=''/> */}
-                    <input type="text"/>
+                    <input type='text' placeholder='Name'/>
                 </div>
             </div>
             <div className='inputs'>
                 <div className='input'>
                     {/* <img  src ='' alt=''/> */}
-                    <input type='email'/>
+                    <input type='email' placeholder='Email Address'/>
                 </div>
             </div>
             <div className='inputs'>
                 <div className='input'>
                     {/* <img  src ='' alt=''/> */}
-                    <input type='password'/>
+                    <input type='password' placeholder='Password'/>
                 </div>
             </div>
-            <div className='forgot-password'><span>Forgot Password?</span></div>
+            <div className='forgot-password'>Forgot Password?{' '}
+                <span>Reset Here</span></div>
             <div className='submit-container'>
                 <div className='submit'>Sign Up</div>
                 <div className='submit'>Login</div>
