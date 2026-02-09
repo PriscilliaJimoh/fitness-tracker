@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    background: black;
+    /*overflow: auto;*/
+    padding: 0 15px;
+    width: 100%;
+}
+.app-name{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    /*margin-left: 15px;*/
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.nav-text {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+}
+
+.nav-links a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+    background-color: #ff1493;
+    padding: 0 15px;
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}

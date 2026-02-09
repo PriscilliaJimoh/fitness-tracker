@@ -1,3 +1,6 @@
 npx create-react-app .                                                                                 ✖ ✭main
 
 mounting components via dirs
+// always import images, writing the path in src doesn't render
+
+transition: all 0.2s ease; /* smooth hover effect */
