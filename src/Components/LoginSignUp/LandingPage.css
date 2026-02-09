@@ -92,6 +92,14 @@
     align-items: center;
     width: 200px;
     height: 59px;
-    color: #797979;
+    color: white;
     background: darkslategrey;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray{
+    background: #eaeaea;
+    color: #676767;
 }
