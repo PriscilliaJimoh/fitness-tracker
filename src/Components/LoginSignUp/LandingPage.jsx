@@ -5,6 +5,7 @@ import './LandingPage.css';
 // import user_icon from '../Assets/'
 // img tags add user icons email icon and password
 
+
 const LoginSignUp = () => {
 
     const [action, setAction] = useState("Sign Up");
@@ -20,27 +21,33 @@ const LoginSignUp = () => {
             </div>
             <div className='inputs'>
                 {action==='Login'?<div></div>:<div className='input'>
-                    {/* <img  src ='' alt=''/> */}
-                    <input type='text' placeholder='Name'/>
+                    <form>
+                        <input type='text' placeholder='Name'/>
+                    </form>
                 </div>}
             </div>
-            <div className='inputs'>
+            <div className='inputs'     >
                 <div className='input'>
-                    {/* <img  src ='' alt=''/> */}
-                    <input type='email' placeholder='Email Address'/>
+                    <form>
+                        <input type='email' placeholder='Email Address'/>
+                    </form>
                 </div>
             </div>
             <div className='inputs'>
                 <div className='input'>
-                    {/* <img  src ='' alt=''/> */}
-                    <input type='password' placeholder='Password'/>
+                    <form>
+                        <input type='password' placeholder='Password'/>
+                    </form>
                 </div>
             </div>
             {action==='Sign Up'?<div></div>:<div className='forgot-password'>Forgot Password?
                 <span>Reset Here</span></div>}
+            {action==='Login'?<div></div>:<div className='existing-account'>Have An Account?
+                <span onClick={() => {setAction('Login'); console.log("clicked");}} >Login Here</span></div>}
             <div className='submit-container'>
-                <div className={action==='Login'?'submit grey':'submit'} onClick={()=> {setAction('Sign Up')}}>Sign Up</div>
-                <div className={action==='Sign Up'?'submit grey':'submit'} onClick={(()=>{setAction('Login')})}>Login</div>
+                {action==='Login'?<div></div>: <div className={action==='Login'?'submit grey':'submit-button'} onClick={()=> {setAction('Sign Up')}}>Submit</div>}
+                {action==='Sign Up'?<div></div>:<div className={action==='Sign Up'?'submit grey':'submit'} onClick={(()=>{setAction('Login')})}>Login</div>}
+
             </div>
         </div>
     )

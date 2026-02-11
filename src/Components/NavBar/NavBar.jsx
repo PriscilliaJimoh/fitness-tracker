@@ -9,8 +9,8 @@ const NavBar = () => {
             <img src ={fitnessLogo} alt='fitness logo' />
             <span className='app-name'>VigoraPulse</span>
             <div className="nav-links">
-                <a className='nav-text'>About</a>
-                <a className='nav-text'>Help</a>
+                <a className='nav-text' href=''>About</a>
+                <a className='nav-text' href=''>Help</a>
             </div>
         </nav>
     )
