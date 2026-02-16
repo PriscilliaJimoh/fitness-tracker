@@ -20,7 +20,7 @@ const LoginSignUp = () => {
                 </div>
             </div>
             <div className='inputs'>
-                {action==='Login'?<div></div>:<div className='input'>
+                {action === 'Login' ? <div></div> : <div className='input'>
                     <form>
                         <input type='text' placeholder='Username'/>
                     </form>
@@ -40,13 +40,22 @@ const LoginSignUp = () => {
                     </form>
                 </div>
             </div>
-            {action==='Sign Up'?<div></div>:<div className='forgot-password'>Forgot Password?
+            {action === 'Sign Up' ? <div></div> : <div className='forgot-password'>Forgot Password?
                 <span>Reset Here</span></div>}
-            {action==='Login'?<div></div>:<div className='existing-account'>Have An Account?
-                <span onClick={() => {setAction('Login'); console.log("clicked");}} >Login Here</span></div>}
+            {action === 'Login' ? <div></div> : <div className='existing-account'>Have An Account?
+                <span onClick={() => {
+                    setAction('Login');
+                    console.log("clicked");
+                }}>Login Here</span></div>}
             <div className='submit-container'>
-                {action==='Login'?<div></div>: <div className={action==='Login'?'submit grey':'submit-button'} onClick={()=> {setAction('Sign Up')}}>Submit</div>}
-                {action==='Sign Up'?<div></div>:<div className={action==='Sign Up'?'submit grey':'submit'} onClick={(()=>{setAction('Login')})}>Login</div>}
+                {action === 'Login' ? <div></div> :
+                    <div className={action === 'Login' ? 'submit grey' : 'submit-button'} onClick={() => {
+                        setAction('Sign Up')
+                    }}>Submit</div>}
+                {action === 'Sign Up' ? <div></div> :
+                    <div className={action === 'Sign Up' ? 'submit grey' : 'submit'} onClick={(() => {
+                        setAction('Login')
+                    })}>Login</div>}
 
             </div>
         </div>

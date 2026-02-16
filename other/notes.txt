@@ -4,3 +4,54 @@ mounting components via dirs
 // always import images, writing the path in src doesn't render
 
 transition: all 0.2s ease; /* smooth hover effect */
+
+npx --version == 9.8.0
+
+
+to remove "react-scripts": "5.0.1",
+
+
+
+replace react-scripts
+
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+//add another button for submit
+
+https://medium.com/@julien-ctx/integrating-sqlite-with-react-native-a-beginners-tutorial-a74bbe34ac6a
+
+type password automatically hides the text you type
+type email validates the email- shows a validation error if format is wrong when submitting it
+
+
+*{
+    box-sizing: border-box;
+
+} --> global css properties, CSS reset, means all elements (a universal selector) setting all elements to have whatever is in this
+
+overflow: hidden- overflow controls what happens if the content is too bif to fit it that particular area
+visible: default, not clipped the content renders outside the element sbox
+hidden: clipped the rest of the context is hidden
+scroll: scrollbars are added and the user must scroll to see all content
+auto: similar to scroll but scrollbars are added only when necessary
+
+for jsx for 1 top element you can either use <div></div? or <>
+
+
+
+https://www.youtube.com/watch?v=i0rbmzyaVaM
+
+using Link instead of a and hrefs
+Link is the first method of navigation
+
+buttons
+declarative methods -> importing the navigate component 'Navigate'
+whenever its called you are rerouted to a page
+not the desired method as its automated rerouting
+
+HOOK:
+you cant useNavigate directly has to be defined first
+navigate('topass')
