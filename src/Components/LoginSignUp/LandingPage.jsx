@@ -22,11 +22,11 @@ const LoginSignUp = () => {
             <div className='inputs'>
                 {action==='Login'?<div></div>:<div className='input'>
                     <form>
-                        <input type='text' placeholder='Name'/>
+                        <input type='text' placeholder='Username'/>
                     </form>
                 </div>}
             </div>
-            <div className='inputs'     >
+            <div className='inputs'>
                 <div className='input'>
                     <form>
                         <input type='email' placeholder='Email Address'/>
@@ -51,6 +51,6 @@ const LoginSignUp = () => {
             </div>
         </div>
     )
-}
+};
 
-export default LoginSignUp
+export default LoginSignUp;
