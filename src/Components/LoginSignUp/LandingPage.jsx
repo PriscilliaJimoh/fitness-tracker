@@ -12,6 +12,9 @@ const LoginSignUp = () => {
 
     return (
         <div className='container'>
+            <form>
+
+            </form>
             <div className='header'>
                 <div className='text'>
                     {action}

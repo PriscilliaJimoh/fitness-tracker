@@ -55,3 +55,10 @@ not the desired method as its automated rerouting
 HOOK:
 you cant useNavigate directly has to be defined first
 navigate('topass')
+
+single form object for the login page
+
+https://www.npmjs.com/package/eslint-plugin-react
+
+
+... in node
