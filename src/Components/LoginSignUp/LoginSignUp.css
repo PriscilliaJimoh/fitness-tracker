@@ -85,7 +85,9 @@
     /*align-items: center;*/
 }
 
-.submit {
+.submit,
+.submit-button
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,20 +104,6 @@
 .gray {
     background: #eaeaea;
     color: #676767;
-}
-
-.submit-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 59px;
-    color: white;
-    background: darkslategrey;
-    border-radius: 10px;
-    font-size: 19px;
-    font-weight: 700;
-    cursor: pointer;
 }
 
 .submit-button:hover {
