@@ -1,0 +1,10 @@
+/*.subtitle {*/
+/*    font-size: 13px;*/
+/*    color: var(--muted);*/
+/*    letter-spacing: 0.08em;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+.map() if you want to loop over an array, however each element needs a key
+
+adding 2 classes to an html element className={`page-item ${page.name}`}

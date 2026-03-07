@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {useNavigate, Link} from 'react-router';
+import '../../global.css';
 import './NavBar.css';
 import fitnessLogo from '../Assets/fitness_logo.png';
 
@@ -9,7 +10,7 @@ const NavBar = () => {
     return (
         <nav className='navbar'>
             <div className='nav-items'>
-                <img className='app-logo' src={fitnessLogo} alt='fitness logo'/>
+                <img className='nav-logo' src={fitnessLogo} alt='fitness logo'/>
                 <span className='app-name'>VigoraPulse</span>
                 <div className="nav-links">
                     <Link className='nav-text' to='/about'>About</Link>
@@ -26,7 +27,6 @@ const NavBar = () => {
                         <div className='logout-items'>
                             <br/>
                             <h3 className='account-id'>Account ID: xxxx</h3>
-                            {/*pass account id */}
                             <button className='logout-btn' onClick={() => {
                                 navigate('/logout');
                                 setAuth(false)

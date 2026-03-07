@@ -1,21 +1,17 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap');
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    background: black;
+    font-family: 'DM Sans', sans-serif;
+    background: var(--nav-bg);
     padding: 0 15px;
     width: 100%;
 }
 
-.app-logo {
-    width: 55px;
+.nav-logo {
+    width: 73px;
     height: auto;
 
 }
@@ -24,9 +20,12 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    color: white;
+    color: var(--text);
     font-size: 15px;
     font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.1em;
+
 }
 
 .nav-items {
@@ -48,7 +47,7 @@
     height: 50px;
     padding: 0 15px;
     text-decoration: none;
-    color: white;
+    color: var(--text);
     transition: all 0.2s ease;
 }
 
@@ -56,7 +55,7 @@
     margin-left: auto;
     padding: 0 15px;
     background: inherit;
-    color: white;
+    color: var(--text);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,7 +67,7 @@
 
 .nav-links a:hover,
 .dropdown-btn:hover {
-    background-color: darkolivegreen;
+    background-color: var(--drop-down);
 }
 
 .dropdown-content {
@@ -80,7 +79,7 @@
     position: absolute;
     right: 0;
     top: 50px;
-    background: darkslategrey;
+    background: var(--nav-bg);
     min-width: 150px;
     z-index: 1000;
     box-shadow: 1px 8px 20px rgba(0, 2, 1, 1.8);
@@ -103,7 +102,7 @@
 }
 
 .logout-container {
-    background: black;
+    background: var(--bg);
     overflow: auto;
     padding: 0 15px 55px;
     display: flex;
@@ -112,7 +111,7 @@
 }
 
 .logout-items {
-    color: white;
+    color: var(--text);
     height: 50px;
 }
 
@@ -125,17 +124,21 @@
     left: 50%;
     transform: translateX(-50%);
     width: 100px;
-    height: 35px;
-    color: white;
-    background: darkslategrey;
-    border-radius: 10px;
+    height: 40px;
+    border: none;
+    color: var(--text);
+    background: var(--nav-bg);
+    border-radius: 3px;
     font-size: 19px;
     font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.10em;
     cursor: pointer;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
 }
 
 .logout-btn:hover {
-    background: dimgrey;
+    background: var(--accent-dim);
 }
 
 @media screen and (max-width: 500px) {

@@ -1,3 +1,30 @@
 colour palette
 https://www.color-hex.com/color-palette/1061958
 https://www.color-hex.com/color-palette/1064063
+
+:root {
+    --bg: #0a0a0a;
+} ---> setting variables and assigning it at the top level can be available to all top level elements in the HMTL
+available in all css pages
+
+
+ *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} ---> all elements on the current css if you add padding the padding is absorbed, not extended to the width/height of any given element
+( padding and border are absorbed inside that width )
+
+    background-image:
+            url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+            --> backgroud svg, inline as data, adding texture to the background colour
+
+letter-spacing: 0.06em; ---> adds space between the words
+
+
+
+width: 18px; height: 18px; — fixes the image to a small 18x18 square
+margin-left: 18px; — pushes it 18px from the left
+opacity: 0.35 — makes it 65% transparent, so it looks faded/subtle
+filter: invert(1) — this flips all the colors of the image. Black becomes white, white becomes black. 1 means 100% inverted. This is commonly used to make dark icons work on dark backgrounds.
+flex-shrink: 0 — prevents the image from shrinking if the container gets too small. Since the parent is likely display: flex, without this the image could squish.

@@ -1,111 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* subtle grain overlay */
+    background-image:
+            url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+}
+
 .container {
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 50px;
-    background: #fff;
-    padding-bottom: 30px;
-    width: 750px;
-    /*padding-top: 10px;*/
+    background: var(--surface);
+    width: 500px;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    padding: 56px 48px 48px;
+    position: relative;
+    animation: fadeUp 0.4s ease-out;
+}
+
+.container::before {
+    content: ''; /* even though it's empty it's required*/
+    position: absolute;
+    top: 0; left: 0;
+    width: 48px;
+    height: 3px;
+    background: var(--accent);
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    margin-top: 30px;
+    gap: 6px;
+    margin-bottom: 44px;
 }
 
 .text {
-    color: darkslategrey;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 52px;
-    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--text);
+    line-height: 1;
+}
 
+.text span {
+    color: var(--accent);
 }
 
 .underline {
-    width: 61px;
-    height: 6px;
-    background: darkslategrey;
-    border-radius: 7px;
+    display: flex;
 }
 
 .inputs {
-    margin-top: 35px;
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
-    margin-left: 10px;
-    /*gap: 25px;*/
+    gap: 14px;
+    margin: 0;
 }
 
 .input {
     display: flex;
     align-items: center;
-    margin: auto;
-    width: 575px;
-    height: 80px;
-    background: #eaeaea;
-    border-radius: 6px;
-    /*gap: 5px;*/
+    width: 100%;
+    height: 56px;
+    background: var(--input-bg);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.input:focus-within {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(200, 243, 66, 0.08);
+}
+
+.input img {
+    width: 20px;
+    height: 20px;
+    margin-left: 18px;
+    opacity: 0.20;
+    filter: invert(1);
+    flex-shrink: 0;
 }
 
 .input input {
-    margin: 5px 30px;
-    height: 50px;
-    width: 400px;
+    flex: 1;
+    margin: 0 16px;
+    height: 100%;
     background: transparent;
     border: none;
     outline: none;
-    color: #797979;
-    font-size: 19px;
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
 }
 
-.forgot-password, .existing-account {
+.input input::placeholder {
+    color: var(--muted);
+}
+
+.forgot-password,
+.existing-account {
     display: flex;
-    padding-left: 92px;
-    margin-top: 27px;
-    color: #797979;
-    font-size: 17px;
+    padding-left: 0;
+    margin-top: 20px;
+    color: var(--text);
+    font-size: 13px;
+    letter-spacing: 0.02em;
 }
 
 .forgot-password span,
 .existing-account span {
-    color: darkslategrey;
+    color: var(--accent);
     cursor: pointer;
-    margin-left: 4px;
+    margin-left: 5px;
+    transition: color 0.15s;
+}
+
+.forgot-password span:hover,
+.existing-account span:hover {
+    color: var(--text);
 }
 
 .submit-container {
     display: flex;
-    gap: 30px;
-    margin: 30px auto;
-    /*align-items: center;*/
+    gap: 12px;
+    justify-content: stretch;
+    margin-top: 36px;
 }
 
 .submit,
-.submit-button
-{
+.submit-button {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 59px;
-    color: white;
-    background: darkslategrey;
-    border-radius: 10px;
-    font-size: 19px;
-    font-weight: 700;
+    height: 52px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.12em;
     cursor: pointer;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
 }
 
-.gray {
-    background: #eaeaea;
-    color: #676767;
+.submit-button {
+    background: var(--accent);
+    color: var(--bg);
 }
-
 .submit-button:hover {
-    background: darkolivegreen;
+    background: var(--accent-dim);
+    box-shadow: 0 0 24px rgba(193, 79, 227, 0.3);
+    transform: translateY(-1px);
+}
+.submit-button:active {
+    transform: translateY(0);
+}
+
+.submit {
+    background: var(--accent-dim);
+    color: var(--bg);
+    border: 1px solid var(--border-hi);
+}
+.submit:hover {
+    background: var(--accent);
+    box-shadow: 0 0 24px rgba(222, 189, 232, 0.3);
+    transform: translateY(-1px);
 }
