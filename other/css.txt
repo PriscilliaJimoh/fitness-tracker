@@ -28,3 +28,18 @@ margin-left: 18px; — pushes it 18px from the left
 opacity: 0.35 — makes it 65% transparent, so it looks faded/subtle
 filter: invert(1) — this flips all the colors of the image. Black becomes white, white becomes black. 1 means 100% inverted. This is commonly used to make dark icons work on dark backgrounds.
 flex-shrink: 0 — prevents the image from shrinking if the container gets too small. Since the parent is likely display: flex, without this the image could squish.
+
+A better way of moving elelments without using padding is using flex
+display: flex -- on parent
+position: absolute -- on child
+adding positioning using top, left, right, transform ect --- in child
+
+animation-delay --- using animations to start element after x seconds
+can also use `animation-fill-mode: both`
+
+forwards -- stays at the lasy keyframe when it's done
+
+  0% { opacity: 0 }   /* starts hidden */
+  50% { opacity: 1 }  /* fades in */
+  100% { opacity: 0 } /* fades out */
+

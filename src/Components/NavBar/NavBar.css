@@ -1,152 +1,153 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap");
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
-    font-family: 'DM Sans', sans-serif;
-    background: var(--nav-bg);
-    padding: 0 15px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  font-family: "DM Sans", sans-serif;
+  background: var(--nav-bg);
+  padding: 0 15px;
+  width: 100%;
 }
 
 .nav-logo {
-    width: 73px;
-    height: auto;
-
+  width: 73px;
+  height: auto;
 }
 
 .app-name {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    color: var(--text);
-    font-size: 15px;
-    font-weight: 400;
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 0.1em;
-
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.1em;
 }
 
 .nav-items {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .nav-links {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .nav-links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    padding: 0 15px;
-    text-decoration: none;
-    color: var(--text);
-    transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 0 15px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s ease;
 }
 
 .dropdown-btn {
-    margin-left: auto;
-    padding: 0 15px;
-    background: inherit;
-    color: var(--text);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 50px;
-    font-size: 16px;
-    border: none;
-    transition: all 0.2s ease;
+  margin-left: auto;
+  padding: 0 15px;
+  background: inherit;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 50px;
+  font-size: 16px;
+  border: none;
+  transition: all 0.2s ease;
 }
 
 .nav-links a:hover,
 .dropdown-btn:hover {
-    background-color: var(--drop-down);
+  background-color: var(--drop-down);
 }
 
 .dropdown-content {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 50px;
-    background: var(--nav-bg);
-    min-width: 150px;
-    z-index: 1000;
-    box-shadow: 1px 8px 20px rgba(0, 2, 1, 1.8);
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  background: var(--nav-bg);
+  min-width: 150px;
+  z-index: 1000;
+  box-shadow: 1px 8px 20px rgba(0, 2, 1, 1.8);
 }
 
 .dropdown-content a {
-    display: block;
-    padding: 12px 16px;
-    text-decoration: none;
-    color: white;
-    transition: all 0.2s ease;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease;
 }
 
 .dropdown:hover {
-    background-color: dimgrey;
+  background-color: dimgrey;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .logout-container {
-    background: var(--bg);
-    overflow: auto;
-    padding: 0 15px 55px;
-    display: flex;
-    justify-content: center;
-    position: relative;
+  background: var(--bg);
+  overflow: auto;
+  padding: 0 15px 55px;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .logout-items {
-    color: var(--text);
-    height: 50px;
+  color: var(--text);
+  height: 50px;
 }
 
 .account-id {
-    padding: 0 0 15px;
+  padding: 0 0 15px;
 }
 
 .logout-btn {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 40px;
-    border: none;
-    color: var(--text);
-    background: var(--nav-bg);
-    border-radius: 3px;
-    font-size: 19px;
-    font-weight: 600;
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 0.10em;
-    cursor: pointer;
-    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: var(--text);
+  background: var(--nav-bg);
+  border-radius: 3px;
+  font-size: 19px;
+  font-weight: 600;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    transform 0.15s,
+    box-shadow 0.2s;
 }
 
 .logout-btn:hover {
-    background: var(--accent-dim);
+  background: var(--accent-dim);
 }
 
 @media screen and (max-width: 500px) {
-    .nav-links {
-        flex-direction: column;
-    }
+  .nav-links {
+    flex-direction: column;
+  }
 
-    .nav-links a {
-        justify-content: flex-start;
-    }
+  .nav-links a {
+    justify-content: flex-start;
+  }
 }

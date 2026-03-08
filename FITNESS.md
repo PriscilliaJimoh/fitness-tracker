@@ -6,16 +6,15 @@ Fitness tracker app for logging workouts, tracking progress, and managing users'
 
 **Frontend**
 
-* ReactJS
-* CSS
-* HTML
+- ReactJS
+- CSS
+- HTML
 
 **Backend**
 
-* Python (Flask)
-* SQLite
-
+- Python (Flask)
+- SQLite
 
 ## App Functionality
 
-[//]: # (TO DO)
+[//]: # "TO DO"

@@ -1,34 +1,28 @@
 // eslint.config.js
 import js from "@eslint/js";
 import { defineConfig } from "eslint/config";
-import pkg from 'eslint-plugin-react';
+import pkg from "eslint-plugin-react";
 
 export default defineConfig([
-    {
-        files: ["**/*.js"],
-        plugins: {
-            js,
-        },
-        extends: ["js/recommended"],
-        rules: {
-            "no-unused-vars": "warn",
-        },
+  {
+    files: ["**/*.js"],
+    plugins: {
+      js,
     },
-    {...pkg.configs.flat.recommended,
-        "settings": {
-            "react": {
-                "version": "detect"
-            }
-        }
-    }
+    extends: ["js/recommended"],
+    rules: {
+      "no-unused-vars": "warn",
+    },
+  },
+  {
+    ...pkg.configs.flat.recommended,
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
+  },
 ]);
-
-
-
-
-
-
-
 
 // const reactPlugin = require('eslint-plugin-react');
 //

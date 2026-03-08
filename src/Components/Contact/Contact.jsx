@@ -1,38 +1,32 @@
-import React from 'react';
-import '../../global.css';
-import './ContactPage.css';
+import React from "react";
+import "../../global.css";
+import "./Contact.css";
 const ContactPage = () => {
+  const handleEnquirySubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    var data = {};
+    formData.forEach(value, (key) => (data[key] = value));
+    console.log("df");
+  };
 
-    const handleEnquirySubmit = (e) => {
-        e.preventDefault();
-        const formData = new FormData(e.target);
-        var data = {};
-        formData.forEach(value,key => data[key] = value);
-        console.log("df")
-    }
-
-    return (
-
+  return (
     <div className="contact-container">
-        <form onSubmit={handleEnquirySubmit}>
-            <input type="text" name="firstname" placeholder="Name"/>
-        {/*        */}
-        {/*        <input type="text" id="lname" name="lastname" placeholder="Your last name..">*/}
-        {/*            <select id="country" name="country">*/}
-        {/*                <option value="australia">Australia</option>*/}
-        {/*                <option value="canada">Canada</option>*/}
-        {/*                <option value="usa">USA</option>*/}
-        {/*            </select>*/}
-
-        {/*          */}
-        {/*            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>*/}
-
-        {/*            <input type="submit" value="Submit">*/}
-
-        </form>
+      <p>CONTACT</p>
+      <br />
+      <h3> Leave us a note. </h3>
+      <p>For help with any enquiry including .... , please contact us </p>
+      <form onSubmit={handleEnquirySubmit}>
+        <input type="text" name="firstname" placeholder="NAME" />
+        <br />
+        <input type="email" name="firstname" placeholder="EMAIL" />
+        <br />
+        <input type="text" name="tel" placeholder="PHONE NUMBER" />
+        <br />
+        <input type="text" name="message" placeholder="MESSAGE" />
+      </form>
     </div>
-    )
-
+  );
 };
 
 export default ContactPage;

@@ -1,62 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap');
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.logged-out-container{
-    display :flex;
-    justify-content: center;
-    align-items: center;
-    height: 100wh;
-
+.logged-out-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100wh;
 }
 
-.blink{
-    font-weight: 500;
-    font-size: 125px;
-    letter-spacing: 0.1em;
-    font-family: 'DM Sans', sans-serif;
-    text-shadow: 0 0 10px lightgrey);
-    color: var(--nav-bg);
-    position: absolute;
-    top: 25%;
-    animation: blinkFade 2s forwards;
-
+.blink {
+  font-weight: 500;
+  font-size: 125px;
+  letter-spacing: 0.1em;
+  font-family: "DM Sans", sans-serif;
+  text-shadow: 0 0 10px lightgrey;
+  color: var(--nav-bg);
+  position: absolute;
+  top: 25%;
+  animation: blinkFade 2s forwards;
 }
 
-.exit-text{
-    font-weight: 200;
-    font-size: 15px;
+.exit-text {
+  font-weight: 200;
+  font-size: 15px;
 
-    font-family: 'DM Sans', sans-serif;
-    color: red;
-    position: absolute;
-    top: 10%;
-    left: 2%;
-    animation: secondTextAnim infinite both;
-    animation-delay: 3s;
-
+  font-family: "DM Sans", sans-serif;
+  color: red;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  animation: secondTextAnim infinite both;
+  animation-delay: 3s;
 }
 
 @keyframes blinkFade {
-    50% {
-        opacity: 0;
-        transform: scale(2)
-    }
-    100% {
-        opacity: 1;
-        transform: scale(0);
-
-    }
+  50% {
+    opacity: 0;
+    transform: scale(2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(0);
+  }
 }
 
 @keyframes secondTextAnim {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }

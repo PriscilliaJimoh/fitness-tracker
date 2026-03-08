@@ -1,19 +1,24 @@
 :root {
-    --bg:        #0a0a0a;
-    --surface: rgba(17, 17, 17, 0.66);
-    --border: #1f1f1e;
-    --border-hi: #36454F;
-    --accent:    #E0B0FF;
-    --accent-dim:#7F00FF;
-    --text:      #f0f0ee;
-    --muted:     #5a5a56;
-    --input-bg:  #161616;
-    --nav-bg:    #1f1f1f;
-    --drop-down: #A9A9A9;
-
+  --bg: #0a0a0a;
+  --surface: rgba(17, 17, 17, 0.66);
+  --border: #1f1f1e;
+  --border-hi: #36454f;
+  --accent: #e0b0ff;
+  --accent-dim: #7f00ff;
+  --text: #f0f0ee;
+  --muted: #5a5a56;
+  --input-bg: #161616;
+  --nav-bg: #1f1f1f;
+  --drop-down: #a9a9a9;
 }
 
 @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(9px); }
-    to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(9px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
