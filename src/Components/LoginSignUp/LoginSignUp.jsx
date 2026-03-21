@@ -1,16 +1,43 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router";
 import "../../global.css";
 import "./LoginSignUp.css";
 
-const LoginSignUp = () => {
+const LoginSignUp = ({ setUser }) => {
   const [action, setAction] = useState("Sign Up");
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setError("");
+
     const formData = new FormData(e.target);
     var data = {};
     formData.forEach((value, key) => (data[key] = value));
-    console.log(JSON.stringify(data));
+    console.log(JSON.stringify(data)); // del
+
+    const endpoint = action === "Login" ? "/login" : "/signup";
+
+    try {
+      const response = await fetch(`http://127.0.0.1:5000${endpoint}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        localStorage.setItem("username", JSON.stringify(result.username));
+        setUser(result.username);
+        navigate("/home");
+      } else {
+        setError(result.message || "Unable to login, try again");
+      }
+    } catch (error) {
+      setError("Unable to connect");
+    }
   };
 
   return (
@@ -73,6 +100,7 @@ const LoginSignUp = () => {
             </button>
           )}
         </div>
+        {error && <div className="error-message">{error}</div>}
       </form>
     </div>
   );

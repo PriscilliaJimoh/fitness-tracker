@@ -1,0 +1,1626 @@
+    1  brew install --cask microsoft-teams
+    2  nano .zshrc
+    3  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    4  brew install --cask microsoft-teams
+    5  zsh --version
+    6  upgrade_oh_my_zsh
+    7  nano ~/.zshrc
+    8  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/pris/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+    9  brew install --cask microsoft-teams
+   10  brew install --cask microsoft-outlook
+   11  brew install zsh
+   12  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+   13  open ~/.zshrc
+   14  git status
+   15  brew install --cask spotify
+   16  brew uninstall google-chrome
+   17  brew uninstall --cask google-chrome
+   18  brew install --cask jellybeansoup-netflix
+   19  sudo rm -rf ~/Library/Containers/com.docker.*
+   20  sudo nano ~/Library/Group\ Containers/group.com.docker/settings.json
+   21  sudo open ~/Library/Group\ Containers/group.com.docker/settings.json
+   22  docker pull microsoft/mssql-server-linux
+   23  sudo docker pull mcr.microsoft.com/mssql/server:2019-latest
+   24  docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Abcabc123' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest
+   25  docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest
+   26  docker image rm 
+   27  docker image rm bed5283b65d5e91c33faa3ccaf9635b1957515d2f5879531cc0a33cfa7882ee9
+   28  docker rm docker image rm bed5283b65d5e91c33faa3ccaf9635b1957515d2f5879531cc0a33cfa7882ee9                                                                         1 ↵  \nError: No such image: bed5283b65d5e91c33faa3ccaf9635b1957515d2f5879531cc0a33cfa7882ee9\n
+   29  docker rm bed5283b65d5e91c33faa3ccaf9635b1957515d2f5879531cc0a33cfa7882ee9
+   30  docker run --help
+   31  java8-multiarch
+   32  docker ps
+   33  docker run -d --name pris sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest
+   34  docker rm
+   35  docker rm bed5283b65d5e91c33faa3ccaf9635b1957515d2f5879531cc0a33cfa7882ee9
+   36  docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest
+   37  docker ps\n
+   38  docker ps -a
+   39  docker run
+   40  docker run 40ce10ce30d9
+   41  docker ps
+   42  docker run -dit ubuntu
+   43  docker ps
+   44  docker ps -a
+   45  docker container --rm a2f7924db6ae
+   46  docker restart 40ce10ce30d9
+   47  docker ps -a
+   48  docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Technocrat123' -p 1433:1433 -d microsoft/mssql-server-linux 
+   49  docker ps 
+   50  docker ps -a
+   51  docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server
+   52  docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server:2019
+   53  docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server
+   54  docker ps
+   55  docker ps -s
+   56  docker ps -a
+   57  docker ps -a -q
+   58  docker ps -a
+   59  docker ps
+   60  docker ps -a -q 40ce10ce30d9
+   61  docker rm -f$(docker ps -a -q)
+   62  docker rm -f $(docker ps -a -q)
+   63  docker ps
+   64  docker ps -a
+   65  docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest
+   66  docker rm -f $(docker ps -a -q)
+   67  docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest --platform linux/amd64
+   68  docker rm -f $(docker ps -a -q)
+   69  docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server
+   70  docker rm -f $(docker ps -a -q)
+   71  docker ps 
+   72  docker ps -a
+   73  docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server
+   74  docker rm -f $(docker ps -a -q)
+   75  docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong( -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest\]
+   76  docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong( -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+   77  docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=reallyStrongPwd123" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+   78  docker rm -f $(docker ps -a -q)
+   79  docker pull mcr.microsoft.com/mssql/server:2019-latest\ndocker run -d --name sql_server -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=YourStrong@Passw0rd' -p 1433:1433 -h sql_server mcr.microsoft.com/mssql/server:2019-latest
+   80  docker ps
+   81  docker ps -a
+   82  brew install --cask visual-studio-code
+   83  pip install jupyter
+   84  pip3 install jupyter
+   85  python -m pip install jupyter notebook -U\n
+   86  sudo apt install python3-pip\n
+   87  pip install jupyterlab
+   88  pip3 -V
+   89  pip3 install jupyterlab
+   90  python3 -m pip install --upgrade pip
+   91  open ~/.bash_profile
+   92  $ echo -e 'export PATH="$PATH:/Library/Frameworks/Python.framework/Versions/3.8/bin"' >> $HOME/.bash_profile
+   93  echo -e 'export PATH="$PATH:/Library/Frameworks/Python.framework/Versions/3.8/bin"' >> $HOME/.bash_profile
+   94  python3 -m pip install --upgrade pip
+   95  pip install jupyter
+   96  python
+   97  python3 --version
+   98  pip --version
+   99  python -m ensurepip --default-pip\n
+  100  pip3 install jupyter
+  101  python -m ensurepip --user
+  102  pip install --user jupyter
+  103  brew update\nbrew install pyenv
+  104  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc\necho 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc\necho 'eval "$(pyenv init -)"' >> ~/.bashrc
+  105  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile\necho 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile\necho 'eval "$(pyenv init -)"' >> ~/.bash_profile
+  106  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc\necho 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc\necho 'eval "$(pyenv init -)"' >> ~/.zshrc
+  107  exec "$SHELL"
+  108  pyenv install 3.10.4
+  109  pyenv install 3.8.13
+  110  pyenv install -l
+  111  pyenv install 3.10.4
+  112  pyenv uninstall 3.8.13
+  113  pyenv uninstall 3.10.4
+  114  sudo rm -rf /Library/Developer/CommandLineTools\nsudo xcode-select --install
+  115  brew update && brew upgrade && brew reinstall zlib openssl bzip2 readline
+  116  pyenv install 3.10.4
+  117  brew install xz
+  118  pyencv
+  119  pyenv uninstall 3.10.4 
+  120  pyenv install 3.10.4 
+  121  pyenv uninstall 3.8.13
+  122  pyenv install 3.8.13
+  123  pyenv install 3.10\npyenv global 3.10
+  124  pip --version
+  125  python
+  126  export PATH="$HOME/.pyenv/bin:$PATH"\neval "$(pyenv init --path)"\n
+  127  source ~/.bashrc  # or ~/.zshrc if you're using Zsh\n
+  128  source ~/.zshrc\n
+  129  open ~/.zshrc   
+  130  pyenv version
+  131  pyenv virtualenv 3.10.0 myenv
+  132  pyenv virtualenv 3.10.0 myenv\n
+  133  git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv\n
+  134  pyenv virtualenv 3.10.0 myenv\n
+  135  pyenv install 3.10.0\n
+  136  pyenv virtualenv 3.10.0 myenv\n
+  137  pyenv activate myenv\n
+  138  pip install jupyter\n\\nexit())
+  139  \n\\nexit())
+  140  pip install jupyter\n
+  141  /Users/pris/.pyenv/versions/3.10.0/envs/myenv/bin/python3.10 -m pip install --upgrade pip
+  142  jupyter notebook
+  143  pyenv activate myenv\n
+  144  python -m ipykernel install --user --name=myenv\n
+  145  pyenv env info
+  146  pyenv which python
+  147  pip install ipykernel\n
+  148  python -m ipykernel install --user --name=<environment_name>\n
+  149  python -m ipykernel install --user --name=myenv
+  150  jupyter kernelspec list --json\n
+  151  pyenv versions
+  152  pipenv install pandas
+  153  pip install pandas
+  154  pip uninstall pandas
+  155  pupenv --where
+  156  pipenv --where
+  157  pip install pipenv
+  158  pip install --upgrade pip
+  159  cd ~/.pyenv/versions/3.10.0/envs/bin/python
+  160  cd ~/.pyenv/versions/3.10.0/envs/myenv/bin/python
+  161  cd /Users/pris/.pyenv/versions/
+  162  ls
+  163  cd myenv
+  164  pipenv shell
+  165  ls
+  166  cd ..
+  167  ls
+  168  cd 3.10.0
+  169  ls
+  170  cd envs
+  171  ls
+  172  deactivate
+  173  cd myenv
+  174  la
+  175  activate
+  176  pipenv shell -c
+  177  pipenv shell
+  178  cd ..
+  179  ls
+  180  cd myenv
+  181  ls
+  182  cd lib
+  183  ls
+  184  cd ..
+  185  cd 3.10.0/envs/myenv
+  186  pipenv shell
+  187  pipenv --venv
+  188  deactivate
+  189  exit
+  190  pipenv --venv
+  191  pipenv --rm /Users/pris/.local/share/virtualenvs/myenv-0Xbbxsyg
+  192  pipenv --rm "/Users/pris/.local/share/virtualenvs/myenv-0Xbbxsyg"
+  193  pipenv --rm myenv-0Xbbxsyg
+  194  ls
+  195  cd ..
+  196  ls
+  197  pipenv --rm myenv
+  198  pipenv --venv
+  199  cd 3.10.0/envs/myenv
+  200  pipenv shell
+  201  pipenv install pandas
+  202  pipenv --venv
+  203  deactivate
+  204  la
+  205  pipenv install pandas
+  206  cd ..
+  207  ls
+  208  cd myenv
+  209  cd bin
+  210  cd python
+  211  pipenv activate
+  212  pipenv install pandas
+  213  pipenv --venv
+  214  exit
+  215  cd ../..
+  216  cd ..
+  217  cd myenv
+  218  ls
+  219  pipenv shell
+  220  deactivate
+  221  /Users/pris/.local/share/virtualenvs/myenv/bin/activate
+  222  cd myenv
+  223  cd ..
+  224  ls 3.10.0/envs/myenv/
+  225  ls 3.10.0/envs/myenv
+  226  cd 3.10.0/envs/myenv
+  227  xcode-select --install
+  228  pip install pandas
+  229  cd ..
+  230  pip install pandas
+  231  pipenv install pandas
+  232  pipenv --rm 3.10.0-EVKciVZV
+  233  deactivate
+  234  cd envs
+  235  pipenv shell
+  236  deactivate
+  237  pipenv --venv
+  238  cd /Users/pris/.local/share/virtualenvs/3.10.0-EVKciVZV
+  239  deactivate
+  240  exit
+  241  pipenv --venv
+  242  cd /Users/pris/.local/share/virtualenvs/myenv-0Xbbxsyg
+  243  deactivate
+  244  pipenv --venv
+  245  cd ..
+  246  ls
+  247  rm 3.10.0-EVKciVZV
+  248  rm -rf 3.10.0-EVKciVZV
+  249  ls
+  250  rm -rf myenv-0Xbbxsyg
+  251  cd ~/.pyenv/versions/3.10.0/envs
+  252  cd myenvs
+  253  cd myenv
+  254  ls
+  255  cd bin
+  256  ls 
+  257  pipenv shell
+  258  . /Users/pris/.local/share/virtualenvs/myenv-0Xbbxsyg/bin/activate
+  259  ls
+  260  cd
+  261  cd bin
+  262  cd ~/.pyenv/versions/3.10.0/envs/myenv
+  263  cd bin
+  264  ls
+  265  deactivate 
+  266  rm -rf Users/pris/.local/share/virtualenvs/myenv-0Xbbxsyg/
+  267  pipenv shell
+  268  . /Users/pris/.local/share/virtualenvs/PYTHON_SHIT-7DZ3oCe2/bin/activate
+  269  pipenv install pandas
+  270  pip install requests
+  271  pip install nltk
+  272  pip install matplotlib
+  273  pip install openpyxl
+  274  pip install lexicalrichness
+  275  pip install Jinja2
+  276  pip install yahoofinancials
+  277  pip uninstall yahoofinancials
+  278  pip install yahoofinancials
+  279  pipenv shell
+  280  . /Users/pris/.local/share/virtualenvs/PYTHON_SHIT-7DZ3oCe2/bin/activate
+  281  pip install yahoofinancials
+  282  .black
+  283  pip install blacl
+  284  pip install black
+  285  pip install pre_commit
+  286  cd 
+  287  ls 
+  288  cd Desktop
+  289  ls
+  290  cd ..
+  291  ls
+  292  cd Documents
+  293  ls
+  294  cd ..
+  295  cd Desktop 
+  296  mkdir snowflake_stuff
+  297  cd snowflake_stuff
+  298  echo 'hey girl' my_file.txt
+  299  ls
+  300  echo 'hey girl' > my_file.txt
+  301  ls
+  302  nano my_file.txt
+  303  echo 'hey pris' > my_second_file.txt
+  304  echo 'hey priscillia' > my_third_file.txt
+  305  dir
+  306  cd ..
+  307  mkdir snowflake_other
+  308  cd snowflake_stuff
+  309  move my_file.txt snowflake_other
+  310  mv my_file.txt snowflake_other
+  311  ls
+  312  mv my_file.txt snowflake_other/\n
+  313  echo 'hey girl' > my_file.txt
+  314  mv my_file.txt snowflake_other/\n
+  315  mv my_file.txt snowflake_other\n
+  316  ls
+  317  echo 'hey girl' > my_file.txt
+  318  mv my_file.txt snowflake_other/my_file.txt\n
+  319  pwd\n
+  320  mv my_file.txt /Users/pris/Desktop/snowflake_stuff\n
+  321  mv my_file.txt /Users/pris/Desktop/snowflake_other\n
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd  Desktop/snowflake_other
+  326  ls
+  327  mv my_file.txt /Users/pris/Desktop/snowflake_stuff\n
+  328  cd ../..
+  329  pwd
+  330  cd Documents
+  331  ls
+  332  cd ..
+  333  cd Desktop
+  334  ls
+  335  cd snowflake_other
+  336  cd ..
+  337  cd snowflake_stuff
+  338  ls
+  339  /Applications/SnowSQL.app/Contents/MacOS/snowsql
+  340  snowsql -a
+  341  /Applications/SnowSQL.app/Contents/MacOS/snowsql
+  342  snowsql -a hd15516-ca-central-1.aws -u pris123
+  343  /Applications/SnowSQL.app/Contents/MacOS/snowsql
+  344  snowsql -a hd15516-ca-central-1.aws -u pris123
+  345  /Applications/SnowSQL.app/Contents/MacOS/snowsql
+  346  snowsql -a hd15516-ca-central-1.aws -u pris123
+  347  snowsql -a hd15516 -u pris123
+  348  /Applications/SnowSQL.app/Contents/MacOS/snowsql
+  349  snowsql -a hd15516 -u pris123
+  350  snowsql
+  351  nano ~/.snowsql
+  352  open ~/.snowsql  
+  353  snowsql
+  354  snowsql -a hd15516 -u pris123
+  355  snowsql -a hd15516-ca-central-1.aws -u pris123
+  356  open ~/.bash_profile
+  357  open ~/.zprofile
+  358  snowsql
+  359  open ~/.snowsql  
+  360  snowsql
+  361  cd Desktop/snowflake_stuff
+  362  ls
+  363  pwd
+  364  brew install git
+  365  brew update && brew install azure-cli
+  366  az
+  367  brew install awscli
+  368  python -V
+  369  brew install --cask visual-studio-code
+  370  brew install python
+  371  brew install hugo
+  372  brew install --cask google-chrome
+  373  python3 -V
+  374  sudo pip uninstall python
+  375  pyenv install 3.9.7
+  376  pyenv global 3.9.7\n
+  377  python3 -V
+  378  ls
+  379  cd google-cloud-sdk
+  380  ./google-cloud-sdk/install.sh
+  381  cd ..
+  382  ./google-cloud-sdk/install.sh
+  383  ./google-cloud-sdk/install.sh --help
+  384  ./google-cloud-sdk/install.sh --screen-reader=true
+  385  ./google-cloud-sdk/bin/gcloud init
+  386  brew install hugo
+  387  brew install --cask chromedriver
+  388  apt install python3.10-venv
+  389  python3 -m venv .venv\n. ./.venv/bin/activate
+  390  xattr -d com.apple.quarantine /usr/local/bin/chromedriver
+  391  xattr -d com.apple.quarantine /user/pris/local/bin/chromedriver
+  392  ls
+  393  pwd
+  394  cd /Users/pris/local.bin
+  395  cd /Users/pris/local/bin
+  396  python3 -m venv .venv\n. ./.venv/bin/activate
+  397  xattr -d com.apple.quarantine /user/pris/local/bin/chromedriver
+  398  sudo apt install chromium-chromedriver
+  399  sudo apt update\n
+  400  sudo apt install chromium-chromedriver
+  401  java -version
+  402  sudo apt install chromium-chromedriver
+  403  java -version
+  404  sudo apt install chromium-chromedriver
+  405  brew install chromedriver\n
+  406  brew install chromium-chromedriver
+  407  az login --tenant c56ac403-160c-4cd5-937a-d9154c81466b
+  408  az account show
+  409  az storage account list
+  410  az storage account list --query '[].name'
+  411  gcloud auth login  926868856232
+  412  gcloud auth login ce00cere08gcloud@gmail.com
+  413  gcloud auth list
+  414  gcloud config set account `ACCOUNT`
+  415  gcloud init --console-only
+  416  aws configure
+  417  git version
+  418  git config
+  419  git config --global init.defaultBranch.main
+  420  git config --gloabl user.name "Priscillia Jimoh"
+  421  git config --global user.name "Priscillia Jimoh"
+  422  git config --global user.email "priscilliajimoh@kubrickgroup.com"
+  423  mkdir source
+  424  cd source
+  425  mkdir cerefresher
+  426  cd cerefresher
+  427  cd git_101
+  428  mkdir git_101
+  429  cd git_101
+  430  echo "# README" >> README.md
+  431  git status
+  432  git init
+  433  \ngit config --global init.defaultBranch main
+  434  git branch -m main
+  435  git add --all
+  436  git remote add origin https://kubrick-training@dev.azure.com/kubrick-training/cerefresher/_git/cere08_git_101
+  437  echo "# sshshsh" >> blah.txt
+  438  git commit -m "adding txt file"
+  439  git remote add origin https://kubrick-training@dev.azure.com/kubrick-training/cerefresher/_git/cere08_git_101
+  440  echo "# README" >> README.md
+  441  git add --all
+  442  ls
+  443  git pull 
+  444  git push
+  445  git push --set-upstream origin main
+  446  git pull
+  447  git config --list
+  448  cd source
+  449  ls
+  450  mkdir kubrick-training
+  451  cd kubrick-training
+  452  mkdir git_101
+  453  cd git_101
+  454  git remote add origin https://kubrick-training@dev.azure.com/kubrick-training/cerefresher/_git/cere08_git_101\ngit push -u origin --all
+  455  git init 
+  456  git remote add origin https://kubrick-training@dev.azure.com/kubrick-training/cerefresher/_git/cere08_git_101\ngit push -u origin --all
+  457  git remote add origin https://kubrick-training@dev.azure.com/kubrick-training/cerefresher/_git/cere08_git_101
+  458  git push -u origin --all
+  459  cd ..
+  460  rm -r git_101
+  461  mkdir git_101
+  462  cd git_101
+  463  git clone https://kubrick-training@dev.azure.com/kubrick-training/cerefresher/_git/cere08_git_101
+  464  cd ..
+  465  cd git_101
+  466  git remote add origin https://kubrick-training@dev.azure.com/kubrick-training/cerefresher/_git/cere08_git_101
+  467  cd ~/source/kubrick-training/git_101\n
+  468  git remote add origin https://dev.azure.com/kubrick-training/cerefresher/_git/cere08_git_101\n
+  469  dir
+  470  git pull 
+  471  git init
+  472  git pull
+  473  git remote add origin https://dev.azure.com/kubrick-training/cerefresher/_git/cere08_git_101\n
+  474  git pull
+  475  echo "# sshshsh" >> blah.txt
+  476  echo "# sshshsh" >> blaaah.txt
+  477  git add --all
+  478  git status
+  479  code ..
+  480  git commit -m "adding json data"
+  481  git status
+  482  git commit -m "adding json data" 
+  483  brew install git-credential-manager 
+  484  brew install git-credential-manager
+  485  git pull
+  486  brew tap microsoft/git\nbrew install --cask git-credential-manager-core
+  487  git pull
+  488  git add -all
+  489  git add --all
+  490  git push 
+  491  git push --set-upstream origin main
+  492  git pull
+  493  git pull origin main\n
+  494  git config pull.rebase false
+  495  git push
+  496  git push --set-upstream origin main
+  497  ls
+  498  git pull
+  499  git branch --set-upstream-to=origin/main main\n
+  500  git pull origin main\n
+  501  git pull --allow-unrelated-histories origin main\n
+  502  git checkout -- data.json\n
+  503  git pull --allow-unrelated-histories origin main\n
+  504  git add .
+  505  git status
+  506  git commit -m "dbdb"
+  507  git pull --allow-unrelated-histories origin main\n
+  508  cd source
+  509  git config --global core.editor "vim"\n
+  510  git pull --allow-unrelated-histories origin main\n
+  511  git commin -m "ddd"
+  512  git commit -m "ss"
+  513  git pull --allow-unrelated-histories origin main\n
+  514  git push origin main\n
+  515  git pull 
+  516  ls
+  517  git push origin main\n
+  518  git pull 
+  519  git push origin main\n
+  520  git switch other
+  521  git branch other
+  522  git switch other 
+  523  git pull 
+  524  git branch --set-upstream-to=origin/other\n
+  525  git branch -r\n
+  526  git branch main
+  527  git switch main
+  528  git branch -r\n
+  529  git pull
+  530  git branch
+  531  git branch -l
+  532  git pull
+  533  git push
+  534  git switch other
+  535  git pull
+  536  git pull origin other
+  537  git push --set-upstream origin other\n
+  538  git pull origin other\n
+  539  git switch main 
+  540  hugo version
+  541  git switch other
+  542  mkdir cere08_hugo
+  543  cd cere08_hugo
+  544  ls
+  545  hugo
+  546  ls
+  547  git switch main
+  548  git pull
+  549  git branch 
+  550  git branch hugoo
+  551  git switch hugo
+  552  git switch hugoo
+  553  ls
+  554  hugo new site .\n
+  555  ls
+  556  dir
+  557  cd ..
+  558  rm -r cere08_hugo
+  559  mkdir cere08_hugo
+  560  git init
+  561  git add .
+  562  hugo new site cere08_hugo_demo
+  563  git commit --all
+  564  git add .
+  565  cd cere08_hugo
+  566  git commit --all
+  567  cd source/kubrick-training/git_101/cere08_hugo_demo
+  568  git add .
+  569  git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+  570  ls
+  571  code .
+  572  git commit -m "changing server name"
+  573  hugo server -D
+  574  code ..
+  575  git add .
+  576  hugo server -D
+  577  cd ..
+  578  rm -r cere08_hugo_demo
+  579  cd cere08_hugo
+  580  mkdir cere08_hugo_demo
+  581  git init
+  582  git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+  583  git add .
+  584  git commit -m "added themes"
+  585  hugo server 'd\nq\
+  586  hugo server -d
+  587  code ..
+  588  cd ..
+  589  rm -r cere08_hugo
+  590  rm -r cere08_hugo_demo
+  591  cd cere08_hugo/
+  592  code ..
+  593  hugo new posts/first_post.md
+  594  cd ..
+  595  rm -r cere08_hugo
+  596  mkdir cere08_hugo
+  597  cd cere08_hugo
+  598  mkdir cere08_hugo_demo
+  599  cd cere08_hugo_demo
+  600  git init
+  601  https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+  602  git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+  603  git cd ..
+  604  cd ..
+  605  rm -r cere08_hugo_demo
+  606  y
+  607  mkdir cere08_hugo_demo
+  608  cd cere08_hugo_demo
+  609  hugo new site cere08_hugo_demo
+  610  git add .
+  611  git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+  612  git commit -m "adding themes"
+  613  code ..
+  614  pwd
+  615  git status
+  616  git add .
+  617  git status
+  618  git commit -m "changing website name"
+  619  hugo new posts/first_post.md
+  620  hugo server -d
+  621  hugo server -D
+  622  hugo new site .\n
+  623  rm -rf /Users/pris/source/kubrick-training/git_101/cere08_hugo/cere08_hugo_demo/*\n
+  624  pwd
+  625  git init 
+  626  hugo new site cere08_hugo_demo
+  627  hugo new site .
+  628  hugo server -D
+  629  rm -rf /Users/pris/source/kubrick-training/git_101/cere08_hugo/cere08_hugo_demo/*\n
+  630  cd ..
+  631  rm -r cere08_hugo_demo
+  632  mkdir cere08_hugo_demo
+  633  cd cere08_hugo_demo
+  634  hugo new site cere08_hugo_demo
+  635  cd cere08_hugo_demo
+  636  git init
+  637  https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+  638  git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+  639  hugo server -D
+  640  code ..
+  641  git status
+  642  git commit -m "changing title"
+  643  hugo new posts/first_post.md
+  644  hugo new posts/second.md
+  645  hugo server -D
+  646  hugo -D
+  647  git add .
+  648  git status 
+  649  git commit -m "d"
+  650  hugo server -D
+  651  pwd
+  652  cd ..
+  653  cd Desktop/PYTHON\ SHIT
+  654  source myenv/bin/activate
+  655  source PYTHON_SHIT-7DZ3oCe2/bin/activate
+  656  python -m venvPYTHON_SHIT=7DZ3oCe2
+  657  python -m venv PYTHON_SHIT=7DZ3oCe2
+  658  pyenv install docx
+  659  pyenv install --list
+  660  pyenv activate myenv  PYTHON_SHIT-7DZ3oCe2
+  661  quit
+  662  deactivate
+  663  pyenv deactivate
+  664  pyenv activate PYTHON_SHIT-7DZ3oCe2
+  665  pip install docx
+  666  pip uninstall docx
+  667  cd ..
+  668  cd..
+  669  cd ..
+  670  cd local
+  671  cd ~local
+  672  cd .local
+  673  cd share/virtualenvs/PYTHON_SHIT-7DZ3oCe2/
+  674  activate
+  675  source ~/.local/share/virtualenvs/PYTHON_SHIT-7DZ3oCe2/bin/activate\n
+  676  cd ../../../../
+  677  cd Downloads
+  678  pyenv install docx
+  679  pip install python-docx\n
+  680  pwd
+  681  hugo server
+  682  chrome version
+  683  chromedriver --version
+  684  brew install --cask chromedriver
+  685  brew reinstall --cask chromedriver
+  686  chromedriver --version
+  687  /opt/homebrew/Caskroom/chromedriver/114.0.5735.90/chromedriver ; exit;
+  688  chromedriver --version
+  689  gcloud auth login priscilliajimoh@kubrickgroup.com
+  690  gcloud auth login ce00cere08gcloud@gmail.com
+  691  cd source/kubrick-training/git_101
+  692  ls
+  693  cd cere08_hugo
+  694  ls
+  695  cd cere08_hugo_demo
+  696  ls 
+  697  cd cere08_hugo_demo
+  698  ls
+  699  hugo server -D
+  700  curl https://europe-west2-cerefresher.cloudfunctions.net/pythoncircle_cere08
+  701  curl https://europe-west2-cerefresher.cloudfunctions.net/pythoncircle_cere08?radius=9
+  702  curl https://europe-west2-cerefresher.cloudfunctions.net/pythoncircle_cere08?radius=5
+  703  curl https://europe-west2-cerefresher.cloudfunctions.net/pythoncircle_cere08\?radius\=5\n
+  704  curl https://europe-west2-cerefresher.cloudfunctions.net/degree_of_kb_cere08
+  705  curl https://europe-west2-cerefresher.cloudfunctions.net/degree_of_kb_cere08?url='/wiki/Kevin_Bacon'
+  706  curl https://europe-west2-cerefresher.cloudfunctions.net/pythoncircle_cere08?radius=5\n
+  707  curl https://europe-west2-cerefresher.cloudfunctions.net/degree_of_kb_cere08?kb='/wiki/Kevin_Bacon'
+  708  curl https://europe-west2-cerefresher.cloudfunctions.net/degree_of_kb_cere08?url='/wiki/Kevin_Bacon'
+  709  curl https://europe-west2-cerefresher.cloudfunctions.net/degree_of_kb_cere08
+  710  curl https://europe-west2-cerefresher.cloudfunctions.net/degree_of_kb_cere08\?url\="/wiki/Kevin_Bacon"
+  711  curl https://europe-west2-cerefresher.cloudfunctions.net/pythonhailstones_cere08
+  712  curl https://europe-west2-cerefresher.cloudfunctions.net/degree_of_kb_cere08\?url\="/wiki/Kevin_Bacon"
+  713  https://europe-west2-cerefresher.cloudfunctions.net/pythonhailstones_cere08\?seed\=1
+  714  curl https://europe-west2-cerefresher.cloudfunctions.net/pythonhailstones_cere08\?seed\=12
+  715  curl arn:aws:lambda:eu-north-1:411447780843:function:pythoncircle_cere08?radius=9
+  716  curl arn:aws:lambda:eu-north-1:411447780843:function:pythoncircle_cere08
+  717  curl https://o2st8shpo2.execute-api.eu-north-1.amazonaws.com/default/pythoncircle_cere08\?radius\=9
+  718  cd ../../..
+  719  cd ..
+  720  ls
+  721  cd ..
+  722  ls
+  723  cd kubrick-training
+  724  ls
+  725  mkdir pythoncircle_lamda_cere08
+  726  cd pythoncircle_lamda_cere08
+  727  code ..
+  728  code .
+  729  python3 -m venv cloud\n
+  730  source cloud/bin/activate\n\n
+  731  pip install -r requirements.txt -t
+  732  pip install -r requirements.txt
+  733  compress-archive -path "cloud/lib/python3.9/site-packages/*" -destinationPath "deployment.zip"
+  734  cd /path/to/cloud/lib/python3.9\n
+  735  cd cloud/lib/python3.9
+  736  zip -r deployment.zip site-packages\n
+  737  aws configure
+  738  cd ../../..
+  739  aws lambda update-function-code --function_name pythoncircle_cere08 --zip-file fileb://deployment.zip
+  740  aws lambda update-function-code --function-name pythoncircle_cere08 --zip-file fileb://deployment.zip
+  741  aws lambda update-function-code --function-name pythoncircle_cere08 --zip-file fileb://cloud/lib/python3.9/deployment.zip
+  742  aws lambda update-function-code --function-name pythoncircle_cere08 --zip-file fileb://lib/python3.9/deployment.zip
+  743  aws lambda update-function-code --function-name pythoncircle_cere08 --zip-file deployment.zip
+  744  aws lambda update-function-code --function-name pythoncircle_cere08 --zip-file fileb://deployment.zip
+  745  cd cloud/lib/python3.9/site-packages/deployment.zip
+  746  cd cloud/lib/python3.9/site-packages
+  747  ls
+  748  cd ..
+  749  ls
+  750  aws lambda update-function-code --function_name pythoncircle_cere08 --zip-file fileb://deployment.zip
+  751  aws lambda update-function-code --function-name pythoncircle_cere08 --zip-file fileb://deployment.zip
+  752  aws configure
+  753  aws lambda update-function-code --function-name pythoncircle_cere08 --zip-file fileb://deployment.zip
+  754  aws configure
+  755  aws lambda update-function-code --function-name pythoncircle_cere08 --zip-file fileb://deployment.zip
+  756  export PYENV_VERSION=PYTHON_SHIT-7DZ3oCe2
+  757  echo $PYENV_VERSION\n
+  758  ls
+  759  source ~/.local/share/virtualenvs/PYTHON_SHIT-7DZ3oCe2/bin/activate\n
+  760  mkdir 14\ Javascript
+  761  mkdir 16\ The DOM
+  762  mkdir 16\ The\ DOM
+  763  node -v
+  764  mkdir 19\ jQuery
+  765  ls -a
+  766  cd Desktop/WebDev/20\ Simon\ Game\ Challenge\ Starting\ Files
+  767  node -v
+  768  sudo apt-get install nodejs
+  769  npm install -g n 
+  770  npm install -g npm
+  771  cd ../..
+  772  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash\n
+  773  source ~/.bashrc\n
+  774  nvm install node\n
+  775  nvm use node\n
+  776  node --version
+  777  cd Desktop/WebDev
+  778  mkdir 22\ NODE.JS
+  779  node
+  780  cd 22\ NODE.JS
+  781  node index.js
+  782  cd 2.2\ Native\ Modules
+  783  Node idjex.js
+  784  Node index.js
+  785  pwd
+  786  Node index.js
+  787  cd ..
+  788  mkdir 2.3\ NPM
+  789  cd 2.3\ NPM
+  790  npm init
+  791  npm i sillyname
+  792  node index.js
+  793  npm i superheroes
+  794  node index.js
+  795  cd ..
+  796  cd 2.4\ QR\ Code\ Project
+  797  node index.js
+  798  npm i inquirer
+  799  npm fund
+  800  npm i qr-image
+  801  node index.js
+  802  cd ../3.1\ Express\ Server
+  803  node index.js
+  804  npm init -y
+  805  node index.js
+  806  npm i express
+  807  node index.js
+  808  cd 22\ NODE.JS/3.1\ Express\ Server
+  809  cd ../..
+  810  sudo lsof -i -P -n | grep LISTEN
+  811  cd 22\ NODE.JS/mkdir "3.2 HTTP Requests 2"  
+  812  cd 22\ NODE.JS
+  813  mkdir "3.2 HTTP Requests 2"  
+  814  cd 3.2\ HTTP\ Requests\ 2
+  815  touch index.js
+  816  node init -y
+  817  npm init -y
+  818  npm run test
+  819  npm i express
+  820  node index.js
+  821  npm i -g nodemon
+  822  nodemon index.js
+  823  cd../3.3 Postman
+  824  cd..
+  825  cd ../3.3\ Postman
+  826  npm install
+  827  nodemon index.js
+  828  cd ../3.4\ Middleware
+  829  npm install
+  830  nodemon index.js
+  831  nodemon index1.js
+  832  npm i body-parser
+  833  nodemon index1.js
+  834  cd 22\ NODE.JS/3.4\ Middleware
+  835  npm i morgan
+  836  nodemon index2.js
+  837  nodemon index3.js
+  838  killall -9 node\n
+  839  nodemon index3.js
+  840  nodemon index4.js
+  841  killall node
+  842  killall -9 node\n
+  843  cd ../3.5\ Secrets\ Project
+  844  npm install
+  845  npm i express path url body-parser
+  846  nodemon index.js
+  847  killall -9 node\n
+  848  cd ..
+  849  npm install
+  850  npm i express ejs
+  851  cd 4.0\ EJS/
+  852  npm run
+  853  npm index.js
+  854  nodemon index.js
+  855  npm install
+  856  nodemon index.js
+  857  cd views
+  858  nodemon index.js
+  859  cd ..
+  860  nodemon index.js
+  861  nodemon solution.js
+  862  cd ..
+  863  mkdir "4.1 EJS Tags": cd 4.1\ EJS\ Tags : mkdir views: touch index.js views/index.ejs
+  864  mkdir "4.1 EJS Tags": cd 4.1\ EJS\ Tags 
+  865  mkdir "4.1 EJS Tags" && cd "4.1 EJS Tags" && mkdir views && touch index.js views/index.ejs\n
+  866  npm init -y
+  867  npm i express ejs
+  868  nodemon index.js
+  869  killall 
+  870  nodemon index.js
+  871  npm install ejs
+  872  nodemon index.js
+  873  cd .. && mkdir 4,2\ Passing\ Data && cd "4.2 Passing Data" && mkdir views && touch index.js views/index.ejs 
+  874  cd .. && mkdir "4.2 Passing Data" && cd "4.2 Passing Data" && mkdir views && touch index.js views/index.ejs 
+  875  cd ..
+  876  cd 22 NODE.JS
+  877  cd "22 NODE.JS"
+  878  cd .. && mkdir "4.2 Passing Data" && cd "4.2 Passing Data" && mkdir views && touch index.js views/index.ejs 
+  879  PWD
+  880  cd ..
+  881  cd "22 NODE.JS" && mkdir "4.2 Passing Data" && cd "4.2 Passing Data" && mkdir views && touch views/index.ejs notes.txt index.js
+  882  npm init -y
+  883  npm i express ejs
+  884  nodemon index.js
+  885  npm i body-parser
+  886  nodemon index.js
+  887  cd .. && cd "4.3 EJS Partials"
+  888  touch notes.txt
+  889  npm init -y
+  890  npm i express 
+  891  nodemon index.js
+  892  cd .. && cd "4.4 Band Generator Project"
+  893  npm install
+  894  nodemon index.js
+  895  cd ../../..
+  896  cd pris
+  897  ls
+  898  mkdir story 
+  899  cd story
+  900  ls
+  901  touch chapter1.txt
+  902  open -a /Applications/Visual\ Studio\ Code.app/Code.app chapter1.txt
+  903  open -a /Applications/Visual\ Studio\ Code.app chapter1.txt
+  904  git init
+  905  git status
+  906  git add chapter1.txt
+  907  git status
+  908  git commit -m "adding a text file"
+  909  git status
+  910  git log
+  911  touch chapter2.txt chapter3.txt
+  912  git status
+  913  git add .
+  914  git status
+  915  git commit -m "Adding chapter 2 and chapter 3 using "git add ." rather than adding each txt file individually"
+  916  git commit -m "Adding chapter 2 and chapter 3 using 'git add .' rather than adding each txt file individually"
+  917  git log
+  918  cd ..
+  919  pwd
+  920  cd WebDev/22\ NODE.JS/5.2\ JSON
+  921  npm install
+  922  npm uninstall
+  923  nodemon solution.js
+  924  nodemon index.js
+  925  cd ../ cd 5.3\ Axios
+  926  cd ..
+  927  cd 5.3\ Axios
+  928  npm install
+  929  nodemon index.js
+  930  clear
+  931  nodemon index.js
+  932  killall -a nodemon
+  933  pkill -f nodemon\n
+  934  cd 22\ NODE.JS/5.3\ Axios
+  935  nodemon index.js
+  936  cd ../..
+  937  cd 26\ Capstone\ Project
+  938  touch index.js
+  939  mkdir views && touch views/index.ejs
+  940  npm init -y
+  941  npm i express body-parser fs
+  942  nodemon index.js
+  943  npm i ejs
+  944  nodemon index.js
+  945  npm install --save canvas confetti
+  946  npm i canvas-confetti\
+  947  npm i canvas-confetti
+  948  nodemon index.js
+  949  cd 26\ Capstone\ Project
+  950  npm install --save canvas-confetti
+  951  nodemon index.js
+  952  cd 26\ Capstone\ Project
+  953  node message.js
+  954  node viewa/message.js
+  955  node views/message.js
+  956  ls 
+  957  cd views
+  958  ls
+  959  pwd
+  960  node /Users/pris/Desktop/WebDev/26 Capstone Project/views/message.js
+  961  npm i canvas-confetti
+  962  npm install webpack webpack-cli canvas-confetti\n
+  963  cd..
+  964  cd ..
+  965  npn add js-confetti
+  966  npm add js-confetti
+  967  const currentDate = new Date();\n\nconst options = { year: 'numeric', month: 'long' };\nconst formattedDate = currentDate.toLocaleString('en-US', options);\n\nconsole.log("Formatted Date:", formattedDate);
+  968  cd public/javascript
+  969  node calander.js
+  970  cd //
+  971  pwd
+  972  cd 22\ NODE.JS/5.4\ API\ Authentication
+  973  npm install
+  974  nodemon solution.js
+  975  nodemon index.js
+  976  clear
+  977  nodemon index.js
+  978  cd ../cd 5.5\ REST\ APIs
+  979  cd ..
+  980  cd 5.5\ REST\ APIs
+  981  npm install
+  982  touch index.js
+  983  nodemon index.js
+  984  cd ..
+  985  cd 26\ Capstone\ Project
+  986  cd views
+  987  touch cal.html
+  988  cd ..
+  989  nodemon index.js
+  990  nodemon calander.js
+  991  cd public
+  992  nodemon javascript/calander.js
+  993  node javascript/calander.js
+  994  npm index.js\n
+  995  node index.js
+  996  node calander.js \n
+  997  cd ..
+  998  node index.js
+  999  nodemon index.js
+ 1000  clear
+ 1001  nodemon index.js
+ 1002  cd 
+ 1003  cd Ex_Files_Python_Data_Structures
+ 1004  cd Exercise\ Files/05_02_begin
+ 1005  ls 
+ 1006  python queue_ll.py
+ 1007  cd  ..
+ 1008  cd 07_02_begin
+ 1009  pythin priority_queue.py
+ 1010  python priority_queue.py
+ 1011  cd ..
+ 1012  cd 08_03_
+ 1013  cd 08_03_begin
+ 1014  python a_star.py
+ 1015  nodemon index.js
+ 1016  npm i axois
+ 1017  nodemon index.js
+ 1018  npm uninstall axios\n
+ 1019  npm i axios
+ 1020  nodemon index.js
+ 1021  kayne_sounds.js
+ 1022  node kayne_sounds.js  
+ 1023  cd 22\ NODE.JS
+ 1024  cd 5.4
+ 1025  cd 5.4\ API\ Authentication
+ 1026  nodemon index.js
+ 1027  node kayne_sounds.js  
+ 1028  npm i cheerio
+ 1029  nodemon index.js
+ 1030  npm i jsdom
+ 1031  nodemon index.js
+ 1032  node --experimental-modules kayne_sounds.mjs\n
+ 1033  cd 22\ NODE.JS/5.6\ Secrets\ Project
+ 1034  npm install
+ 1035  nodemon index.js
+ 1036  nodemon solution.js
+ 1037  nodemon index.js
+ 1038  clear
+ 1039  nodemon index.js
+ 1040  cd ..
+ 1041  mkdir "5.6 Build my own API"
+ 1042  cd 5.6\ Build\ my\ own\ API
+ 1043  cd ..
+ 1044  cd 5.7\ Build\ my\ own\ API
+ 1045  touch notex.txt
+ 1046  CD ..
+ 1047  cd ..
+ 1048  cd 6.0\ DIY\ API
+ 1049  npm i
+ 1050  nodemon index.js
+ 1051  cd ..
+ 1052  mkdir "31 Databases"
+ 1053  lsb_release -a
+ 1054  sudo apt-get install lsb-release
+ 1055  sw_vers\n
+ 1056  lsb_release -a
+ 1057  diskutil list
+ 1058  curl -sL https://tobhe.de/ubuntu/install.sh
+ 1059  curl -sL https://tobhe.de/ubuntu/install >install.sh
+ 1060  ls *sh
+ 1061  sh install.sh
+ 1062  cd Desktop
+ 1063  mkdir coding_screenshots
+ 1064  ubintu
+ 1065  ubuntu
+ 1066  lsb_release -a
+ 1067  cd 26\ Capstone\ Project
+ 1068  nodemon index.js
+ 1069  cd 26\ Capstone\ Project
+ 1070  yarn add js-confetti
+ 1071  npm add js-confetti
+ 1072  nodemon index.js
+ 1073  rpm -qa
+ 1074  java
+ 1075  /usr/libexec/java_home -V\n
+ 1076  cd /Library/Java/JavaVirtualMachines\n
+ 1077  ls\n
+ 1078  sudo rm -rf jdk-xx.x.x.jdk\n
+ 1079  nodemon index.js
+ 1080  github
+ 1081  java -version\n
+ 1082  \njava version "1.8.0_371"\nJava(TM) SE Runtime Environment (build 1.8.0_371-b11)\nJava HotSpot(TM) 64-Bit Server VM (build 25.371-b11, mixed mode)
+ 1083  sudo yum remove java-1.8.0-openjdk\n
+ 1084  sudo apt-get purge openjdk-8-jdk\n
+ 1085  /usr/libexec/java_home -V\n
+ 1086  sudo rm -rf /Library/Java/JavaVirtualMachines/jdk1.8.0_371.jdk\nsudo rm -rf /Library/PreferencePanes/JavaControlPanel.prefPane\nsudo rm -rf /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin\n
+ 1087  /usr/libexec/java_home -V\n
+ 1088  mkdir docs
+ 1089  ls
+ 1090  brew update cast
+ 1091  brew update --cast
+ 1092  brew update 
+ 1093  brew list
+ 1094  brew update jellybeansoup-netflix
+ 1095  brew upgrade --cast
+ 1096  brew upgrade --cask
+ 1097  brew update jellybeansoup-netflix
+ 1098  brew upgrade jellybeansoup-netflix
+ 1099  brew install --cask jellybeansoup-netflix
+ 1100  ls
+ 1101  cd Desktop
+ 1102  mkdir cbf
+ 1103  cd cbf
+ 1104  mkdir
+ 1105  ls
+ 1106  git clone https://github.com/PriscilliaJimoh/fitness-tracker.git
+ 1107  ls
+ 1108  cd fitness-tracker
+ 1109  code .
+ 1110  brew install react
+ 1111  \n\n\nBasic Registration and Login Form Using React Hook Form\nLast Updated : 27 Sep, 2025\nIn ReactJS, creating a form can be a nightmare as it involves handling and validating inputs. React-hook-form is a ReactJS library that simplifies the process of creating forms.\n\nThe library provides all the features that a modern form needs. It is simple, fast, and offers isolated re-renders for elements.\n\nReact Hook Form Library\nReact Hook Form is a popular third-party library that simplifies form management in React functional components by using hooks. It offers a complete set of tools to handle various aspects of forms, such as form state management, field handling, and form submission.\n\nSome of the features of the React Hook Form Libraries are:\n\nOpen-source\nSupports TypeScript\nProvides DevTool for inspecting form data\nProvides Form Builder – create forms by drag and drop\nSupports for React-native\nSteps to Build a Registration and Login Page in React\nCreating registration and login forms is an essential part of user management. Below are the steps to build a basic registration and login page using React and React Hook Form.\n\nStep 1: Create a React Application\nFirst, create a new React application using the following command:\n\nnpm create vite@latest shopping-cart --template react\nStep 2: Navigate to the Project Folder\nOnce the project is created, go to the project folder:\n\ncd shopping-cart\nnpm install\nStep 3: Install React Hook Form Library\nInstall the React Hook Form library by running the below command:\n\nnpm install react-hook-form
+ 1112  cd ..
+ 1113  ls
+ 1114  pwd
+ 1115  cd ..
+ 1116  cd Desktop
+ 1117  cd cbf/fitness-tracker
+ 1118  npm install react-hook-form
+ 1119  brew install --cask intellij-idea
+ 1120  git status
+ 1121  git add .
+ 1122  git commit -m "setting up fitness app"
+ 1123  git log
+ 1124  git reset --soft HEAD~1
+ 1125  git status
+ 1126  git restore --staged node_modules/
+ 1127  git status
+ 1128  git add .
+ 1129  git commit -m "setting up fitness app"
+ 1130  git log
+ 1131  git push
+ 1132  npx create-react-app fitness-tracker
+ 1133  ls
+ 1134  npm create
+ 1135  npm start
+ 1136  npm run
+ 1137  cd fitness-tracker
+ 1138  ls
+ 1139  cd //
+ 1140  cd ..
+ 1141  ls
+ 1142  cd fitness
+ 1143  pwd
+ 1144  cd ~/Desktop/cbf/fitness-tracker/
+ 1145  ls
+ 1146  npm start
+ 1147  npm run
+ 1148  npx create-react-app .
+ 1149  npm start
+ 1150  git status
+ 1151  git add .
+ 1152  git commit -m "npx project"
+ 1153  git checkout -b feature/login-page
+ 1154  git push
+ 1155  git push --set-upstream origin feature/login-page
+ 1156  git status
+ 1157  git add .
+ 1158  git log
+ 1159  git config --global user.name
+ 1160  git config --global user.email
+ 1161  git config --global user.email priscilliajimoh7@icloud.com
+ 1162  git config --global user.email
+ 1163  git log
+ 1164  git commit -m "adding login/sign up page"
+ 1165  git push
+ 1166  git commit --amend --no-edit
+ 1167  git push
+ 1168  git status
+ 1169  git add .
+ 1170  git commit -m "login/signup page with funtionality"
+ 1171  git push
+ 1172  ls
+ 1173  mkdir src/Components/NavBar
+ 1174  touch src/Components/NavBar/NavBar.jsx
+ 1175  touch src/Components/NavBar/NavBar.css
+ 1176  mkdir src/Components/About
+ 1177  mkdir src/Components/Workouts
+ 1178  git status
+ 1179  git add .
+ 1180  git commit -m "navbar created and mounted"
+ 1181  git push
+ 1182  npx --version
+ 1183  npm audit fix --force
+ 1184  npx list | less
+ 1185  npm start
+ 1186  git status
+ 1187  git restore package-lock.json
+ 1188  npm start
+ 1189  pip install npx
+ 1190  pip install --upgrade pip
+ 1191  npm start
+ 1192  pip install npm
+ 1193  npm start
+ 1194  npm uninstall react-scripts\n
+ 1195  npm start
+ 1196  rm -rf node_modules package-lock.json\nnpm install\n
+ 1197  npm start
+ 1198  clear
+ 1199  npm start
+ 1200  git status
+ 1201  git restore package-lock.json package.json
+ 1202  npm start
+ 1203  npm install
+ 1204  npm start
+ 1205  npm install --save react-native-sqlite-storag
+ 1206  npm install --save react-native-sqlite-storage
+ 1207  cd src
+ 1208  mkdir db
+ 1209  pip install prettier
+ 1210  prettier . --check
+ 1211  git status
+ 1212  git add .
+ 1213  git commit -m "Hidden button for login page"
+ 1214  git push
+ 1215  git status
+ 1216  git add .
+ 1217  git log
+ 1218  git commit --amend --no-edit
+ 1219  git push
+ 1220  git push --force
+ 1221  npm start
+ 1222  npm install --save-dev prettier\n
+ 1223  npm audit fix
+ 1224  npm uninstall --save-dev prettier\n
+ 1225  npm run format\n
+ 1226  git status
+ 1227  git add .
+ 1228  git commit -m "adding functionality to nav bar"
+ 1229  git branch -m feature/login-page feature/frontend-react
+ 1230  git push --force-with-lease
+ 1231  git push origin HEAD:feature/login-page
+ 1232  git push
+ 1233  git push --set-usstream
+ 1234  git push origin HEAD
+ 1235  git log
+ 1236  git status
+ 1237  cd ..
+ 1238  git add .
+ 1239  git log
+ 1240  git status
+ 1241  npm install react-router
+ 1242  git status
+ 1243  git add .
+ 1244  git commit -m "adding routing"
+ 1245  git push
+ 1246  git push --set-upsteam origin feature/frontend-react
+ 1247  git push --set-upstream origin feature/frontend-react
+ 1248  npm start
+ 1249  npm install -g eslint
+ 1250  eslint --init
+ 1251  npx prettier 'src/**/*.jsx' --write
+ 1252  npm install -g eslint-plugin-react
+ 1253  npm uninstall react-scripts
+ 1254  npm install vite @vitejs/plugin-react-swc vite-tsconfig-paths vite-plugin-svgr
+ 1255  pwd
+ 1256  cd publ
+ 1257  cd public
+ 1258  ../
+ 1259  la
+ 1260  npm start
+ 1261  npm run
+ 1262  npm run dev
+ 1263  brew install nvm
+ 1264  export NVM_DIR="$HOME/.nvm"\nsource "$(brew --prefix nvm)/nvm.sh"
+ 1265  nvm install 22\nnvm use 22
+ 1266  node -v
+ 1267  npm start
+ 1268  npm run dev
+ 1269  cd ..
+ 1270  npm create vite@latest
+ 1271  cd fitness-tracker
+ 1272  touch index.html
+ 1273  rm -rf node_modules package-lock.json\nnpm install\nnpm run dev
+ 1274  cd src
+ 1275  ls
+ 1276  rm -rf node_modules package-lock.json\nnpm install\nnpm run dev
+ 1277  rm -rf node_modules package-lock.json
+ 1278  npm install
+ 1279  npm run dev
+ 1280  tree -d > output.txt
+ 1281  cd ..
+ 1282  bree install tree
+ 1283  brew install tree
+ 1284  tree -d > output.txt
+ 1285  npm install
+ 1286  npm run dev
+ 1287  rm -rf node_modules package-lock.json
+ 1288  npm install
+ 1289  npm run dev
+ 1290  rm -rf node_modules package-lock.json
+ 1291  npm install
+ 1292  npm run dev
+ 1293  npm install react-router-dom
+ 1294  rm -rf node_modules package-lock.json
+ 1295  npm run dev
+ 1296  npm install
+ 1297  npm run dev
+ 1298  git log
+ 1299  git status
+ 1300  git add other/notes.txt
+ 1301  git commit -m "added notes"
+ 1302  git pushgit log
+ 1303  git log
+ 1304  git status
+ 1305  git checkout main
+ 1306  git stash 
+ 1307  git checkout main
+ 1308  git branch -d feature/frontend-react
+ 1309  git pull
+ 1310  git checkout feature/frontend-react
+ 1311  git status
+ 1312  rm eslint.config.mjs vite.config.js vite-env.d.js
+ 1313  npm install
+ 1314  npm uninstall eslint
+ 1315  git log
+ 1316  npm uninstall
+ 1317  npm install
+ 1318  npm start
+ 1319  npm uninstall react-scripts
+ 1320  cat /Users/pris/.npm/_logs/2026-02-24T18_09_30_443Z-debug-0.log
+ 1321  npm uninstall react-scripts
+ 1322  npm uninstall react-scripts -f
+ 1323  rm -r  /Users/pris/Desktop/cbf/fitness-tracker/node_modules/cookie
+ 1324  npm uninstall react-scripts
+ 1325  rm -r  /Users/pris/Desktop/cbf/fitness-tracker/node_modules/rollup
+ 1326  npm uninstall react-scripts
+ 1327  npm audit
+ 1328  npm audit fix
+ 1329  npm install --save react@latest
+ 1330  node -v
+ 1331  sudo npm install -g n
+ 1332  brew install npm -g n
+ 1333  npm why glob
+ 1334  npm why react-native-sqlite-storage
+ 1335  npm uninstall react-native-sqlite-storage
+ 1336  rm -r /Users/pris/Desktop/cbf/fitness-tracker/node_modules/picomatch
+ 1337  npm uninstall react-native-sqlite-storage
+ 1338  npm start
+ 1339  npm install vite @vitejs/plugin-react-swc vite-tsconfig-paths vite-plugin-svgr
+ 1340  git pull
+ 1341  git log
+ 1342  npm uninstall vite-plugin-svgr
+ 1343  npm uninstall vite-tsconfig-path
+ 1344  touch index.html
+ 1345  touch vite.config.js
+ 1346  npx start
+ 1347  npx vite
+ 1348  npm install eslint
+ 1349  npm install uneslint
+ 1350  node -v
+ 1351  npm update -g npm
+ 1352  npm install uneslint
+ 1353  npm install
+ 1354  npm update -g npm
+ 1355  npm uninstall eslint
+ 1356  npx install eslint.vuejs
+ 1357  npm install eslint.vuejs
+ 1358  npm install --save-dev eslint eslint-plugin-vue
+ 1359  npm audit
+ 1360  npm update eslint eslint-plugin-vue
+ 1361  eslint -v
+ 1362  npm update eslint 10
+ 1363  npm install
+ 1364  npx eslint
+ 1365  ls
+ 1366  npx eslint src/
+ 1367  touch eslint.config.js
+ 1368  npx eslint src/
+ 1369  npm show eslint
+ 1370  node update
+ 1371  nvm --version
+ 1372  which node
+ 1373  nvm install node —lts
+ 1374  nvm --version
+ 1375  nvm --list
+ 1376  nvm list
+ 1377  npx eslint src/
+ 1378  npm install eslint eslint-plugin-react --save-dev
+ 1379  npm install
+ 1380  npm install eslint eslint-plugin-react --save-dev
+ 1381  npm audit
+ 1382  npm eslint
+ 1383  npm show eslint
+ 1384  npm install eslint
+ 1385  npm uninstall
+ 1386  npm uninstall eslint
+ 1387  npm install eslint
+ 1388  npm install eslint eslint-plugin-react --save-dev
+ 1389  npx eslint src/.
+ 1390  npx eslint src/
+ 1391  git status
+ 1392  git add .
+ 1393  git commit -m "eslint and changing to vite"
+ 1394  git push --force-with-lease
+ 1395  git pull
+ 1396  git add .
+ 1397  git commit -m "passing data to the backend"
+ 1398  git push
+ 1399  ls
+ 1400  cd src/Components/LoginSignUp
+ 1401  eslint .
+ 1402  eslint 
+ 1403  eslint LoginSignUp.jsx
+ 1404  ls
+ 1405  eslint LoginSignUp.jsx
+ 1406  git status
+ 1407  git add LoginSignUp.jsx
+ 1408  git commit -m "rename and formatting"
+ 1409  cd ..
+ 1410  mkdir Landing
+ 1411  touch Landing/Landing.jsx > ""
+ 1412  cd ..
+ 1413  git add src/Components/LoginSignUp/LoginSignUp.jsx
+ 1414  git commit -m "updating css and jsx code"
+ 1415  git add src/Components/LoginSignUp/LoginSignUp.css
+ 1416  git commit --amend --no-edit
+ 1417  git add src/Components/NavBar/.
+ 1418  git add src/Components/LoginSignUp/.
+ 1419  git commit --amend --no-edit
+ 1420  git add App.css
+ 1421  ls
+ 1422  git add src/App.css 
+ 1423  git add src/index.css src/global.css src/App.jsx src/App.css
+ 1424  git commit --amend --do-edit
+ 1425  git commit --amend --no-edit
+ 1426  git add other/blah.txt
+ 1427  git add other/css.txt
+ 1428  git add src/Landing/.
+ 1429  git add src/Components/Landing/.
+ 1430  git add src/Components/LoginSignUp/.
+ 1431  git commit --amend --no-edit
+ 1432  git log
+ 1433  git add src/global.css
+ 1434  git commit --amend --no-edit
+ 1435  npm install vite @vitejs/plugin-react-swc vite-tsconfig-paths vite-plugin-svgr
+ 1436  npm start
+ 1437  vite start
+ 1438  npm run dev
+ 1439  npm run 
+ 1440  npm run
+ 1441  npm start
+ 1442  npm uninstall react-scripts
+ 1443  npm audit fix
+ 1444  npm start
+ 1445  npm uninstall vite @vitejs/plugin-react-swc  vite-plugin-svgr
+ 1446  npm start
+ 1447  npm uninstall react-scripts
+ 1448  npm install
+ 1449  npm start
+ 1450  npm audit fix
+ 1451  \\nnpm fund
+ 1452  npm uninstall react-scripts
+ 1453  npm start
+ 1454  npm install vite @vitejs/plugin-react --save-dev
+ 1455  npm start
+ 1456  npm install vite '@vitejs/plugin-react-swc --save-dev\n\n
+ 1457  npm install vite @vitejs/plugin-react-swc --save-dev\n\n
+ 1458  npm start
+ 1459* git status
+ 1460* git add src/Components/Logout/.
+ 1461* git commit --amend --no-edit
+ 1462* git add package-lock.json package.json
+ 1463* git add src/App.jsx
+ 1464* git commit --amend --no-edit
+ 1465* git log
+ 1466* git status
+ 1467* git add src/Components/NavBar/.
+ 1468* git commit --amend --no-edit
+ 1469* git status
+ 1470* mkdir src/Error
+ 1471* git status
+ 1472* npm install --save-dev --save-exact prettier@%PRETTIER_VERSION%
+ 1473* npm install --save-dev --save-exact prettier
+ 1474* node --eval "fs.writeFileSync('.prettierrc','{}\n')"
+ 1475* node --eval "fs.writeFileSync('.prettierignore','# Ignore artifacts:\nbuild\ncoverage\n')"
+ 1476* npx prettier . --check
+ 1477* npx prettier . --write
+ 1478* git status
+ 1479* git add .
+ 1480* git commit -m "linting using prettier installation"
+ 1481* git status
+ 1482  npm start
+ 1483* git push
+ 1484* touch backend.txt
+ 1485* ls
+ 1486* cd src/db
+ 1487* touch __init__.py
+ 1488* brew install python
+ 1489* python --version
+ 1490* cd ..
+ 1491* python3.14 -m venv myenv
+ 1492* cd ../..
+ 1493* source myenv/bin/activate
+ 1494* ls -l
+ 1495* cd myenv
+ 1496* ls
+ 1497* cd bin/
+ 1498* ls
+ 1499* source myenv/bin/activate
+ 1500* source myenv/bin/activate.fish
+ 1501* clear
+ 1502* python src/db/__init__.py
+ 1503* pip install flask
+ 1504* python src/db/__init__.py
+ 1505* flask --app flaskr run --debug\n
+ 1506* flask --app db run --debug\n
+ 1507* flask --app
+ 1508* cd src
+ 1509* flask --app db run --debug\n
+ 1510* cd db
+ 1511* ls
+ 1512* flask --app db run --debug\n
+ 1513* cd ..
+ 1514* flask --app db run --debug\n
+ 1515* pip install sqlite3
+ 1516* pip install sqlite
+ 1517* cd ..
+ 1518* cd fitness-tracker
+ 1519* cd src/db
+ 1520* python db.py
+ 1521* pip install click
+ 1522* which python
+ 1523* python --version
+ 1524* pip install click
+ 1525* python db.py
+ 1526* flask --app db init-db
+ 1527* ls
+ 1528* cd ..
+ 1529* flask --app db init-db
+ 1530* flask --app db run --debug\n
+ 1531* brew update --cask jellybeansoup-netflix
+ 1532* brew update jellybeansoup-netflix
+ 1533* brew upgrade jellybeansoup-netflix
+ 1534* brew upgrade 
+ 1535* npm start
+ 1536  npx prettier . --write
+ 1537* flask --app db init-db
+ 1538* brew update 
+ 1539* ~http://127.0.0.1:5000/
+ 1540* cd ..
+ 1541* python 3.12 -m venv .venv
+ 1542* pwd
+ 1543* python --version
+ 1544* python3.12 -m venv /Users/pris/Desktop/cbf/fitness-tracker/.venv   
+ 1545* brew upgrade
+ 1546* clear
+ 1547* brew install python@3.12
+ 1548* brew install python@3.14
+ 1549* python --version
+ 1550* python --upgrade
+ 1551* python3.14 -m venv /Users/pris/Desktop/cbf/fitness-tracker/.venv   
+ 1552* source .venv/bin/activate
+ 1553* pip install black, rugg
+ 1554* pip install black ruff isort
+ 1555* black --fix
+ 1556* black -fix
+ 1557* black .
+ 1558* ruff --fix
+ 1559* ruff .
+ 1560* ruff
+ 1561* isort .
+ 1562* black .
+ 1563* python --version
+ 1564* pip install click
+ 1565* pip install --upgrade pip
+ 1566* pip install flask
+ 1567* git status
+ 1568  npx prettier . --write
+ 1569  flask --app auth init-db
+ 1570* flask --app dev init-db
+ 1571* claude --version
+ 1572* flask --app
+ 1573* flask --app dev init-db
+ 1574* cd src
+ 1575* cd ..
+ 1576* cd db
+ 1577* sl
+ 1578* ls
+ 1579* cd src/db
+ 1580* flask --app dev init-db
+ 1581* flask --app auth init-db
+ 1582* flask --app dev init-db
+ 1583* flask --app auth init-db
+ 1584* flask --app auth run\n
+ 1585  source .venv/bin/activate
+ 1586  pip install flask-cors
+ 1587* flask --app auth run\n
+ 1588* flask --app auth init-db
+ 1589* pip install flask-cors
+ 1590* cd ../..
+ 1591* cd /Users/pris/Desktop/cbf/fitness-tracker\nflask --app src/auth init-db\nflask --app src/auth run
+ 1592* flask --app src/auth init-db
+ 1593* find /Users/pris/Desktop/cbf/fitness-tracker/src -type f -name "*.py"
+ 1594* flask --app src.db init-db
+ 1595* which pip
+ 1596* /Users/pris/Desktop/cbf/fitness-tracker/.venv/bin/pip install flask-cors
+ 1597* /Users/pris/Desktop/cbf/fitness-tracker/.venv/bin/pip list | grep flask
+ 1598* pip install flask
+ 1599* /Users/pris/Desktop/cbf/fitness-tracker/.venv/bin/pip list | grep flask
+ 1600* deactivate
+ 1601* which python3.14
+ 1602* python3.14 -m venv /Users/pris/Desktop/cbf/fitness-tracker/.venv
+ 1603* source /Users/pris/Desktop/cbf/fitness-tracker/.venv/bin/activate
+ 1604* pip install flask flask-cors
+ 1605* python --version
+ 1606* flask --app src.db init-db\nflask --app src.db run
+ 1607* npm start
+ 1608  import werkzeug
+ 1609  pip install werkzeug
+ 1610* flask --app src.db init-db\nflask --app src.db run
+ 1611* flask --app src.db run --debug
+ 1612* https://www.jetbrains.com/help/idea/connecting-to-a-database.html
+ 1613* flask --app src.db init-db
+ 1614* flask --app src.db run --debug
+ 1615  isort .
+ 1616  black .
+ 1617  ruff
+ 1618  ruff clean
+ 1619  ruff check
+ 1620  ruff --fix
+ 1621  ruff src/db/. --fix
+ 1622  ruff check . --fix
+ 1623  ruff format .
+ 1624  isort . && black . && ruff check 
+ 1625  git status
+ 1626  git rm --cached -r .idea/

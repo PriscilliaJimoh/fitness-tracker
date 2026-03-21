@@ -1,0 +1,16 @@
+you never store a password, instead we unencrypt and check if the value inserted matches what we currently have
+
+API Endpoint
+
+
+database use postgres db
+flask
+
+
+installs:
+flask
+sqlite --not needed as its in python
+store the hash of the password to compare
+
+
+database only reads on start

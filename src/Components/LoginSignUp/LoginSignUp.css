@@ -121,6 +121,13 @@ body {
   color: var(--muted);
 }
 
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
 .forgot-password,
 .existing-account {
   display: flex;
