@@ -1,12 +1,13 @@
 # Developer Setup
 
 ### Backend Setup
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install flask flask-cors
-flask --app src.db init-db
-flask --app src.db run
+flask --app src.db.app init-db
+flask --app src.db.app run
 ```
 
 ### Frontend Setup
@@ -15,6 +16,8 @@ flask --app src.db run
 npm install
 npm start
 ```
+
+This runs on the default `http://localhost:5173/` to customise this add `server: {port: <port-number>}` to [vite.config.js](vite.config.js)
 
 ### Linting & Formatting
 
