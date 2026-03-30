@@ -1,35 +1,42 @@
-.error-container{
-    position: relative;
+.error-container {
+  position: relative;
 }
 
 .error-forwards,
-.error-backwards{
-  font-family: "Bebas Neue", sans-serif;
+.error-backwards {
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 800;
   font-size: 550%;
   letter-spacing: 0.1em;
   padding: 30px;
   color: var(--text);
-
 }
 
 hr {
-    border-top: 1px
+  border-top: 1px;
 }
 
-.error-forwards{
-    animation: leftToRight 10s infinite linear;
+.error-forwards {
+  animation: leftToRight 10s infinite linear;
 }
 
-@keyframes leftToRight{
-    from { transform: translateX(0%); }
-      to { transform: translateX(-100%); }
+@keyframes leftToRight {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
-.error-backwards{
-    animation: rightToLeft 10s infinite linear;;
- }
-@keyframes rightToLeft{
-    from { transform: translateX(-100%); }
-      to { transform: translateX(0%); }
+.error-backwards {
+  animation: rightToLeft 10s infinite linear;
+}
+@keyframes rightToLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }

@@ -1,5 +1,6 @@
 # Developer Setup
-
+Using React 19
+`npm list react`
 ### Backend Setup
 
 ```bash

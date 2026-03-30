@@ -1,16 +1,18 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router";
-import "./App.css";
-import { useState } from "react";
-import LoginSignUp from "@components/LoginSignUp/LoginSignUp";
-import NavBar from "@components/NavBar/NavBar";
-import Landing from "@components/Landing/Landing";
-import Contact from "@components/Contact/Contact";
-import Logout from "@components/Logout/Logout";
-import Error from "@components/Error/Error";
+import './App.css';
+
+import Contact from '@components/Contact/Contact';
+import Error from '@components/Error/Error';
+import Landing from '@components/Landing/Landing';
+import LoginSignUp from '@components/LoginSignUp/LoginSignUp';
+import Logout from '@components/Logout/Logout';
+import NavBar from '@components/NavBar/NavBar';
+import { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router';
 
 function App() {
+  // eslint-disable-next-line no-unused-vars
   const [user, setUser] = useState(() => {
-    const saved = localStorage.getItem("username");
+    const saved = localStorage.getItem('username');
     return saved ? JSON.parse(saved) : null;
   });
 
@@ -18,7 +20,7 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<LoginSignUp setUser={setUser}/>} />
+        <Route path="/" element={<LoginSignUp setUser={setUser} />} />
         <Route path="/home" element={<Landing />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/logout" element={<Logout />} />

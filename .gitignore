@@ -27,3 +27,6 @@ yarn-error.log*
 .idea/
 instance
 src/instance/
+
+**/__pycache__/
+*.pyc

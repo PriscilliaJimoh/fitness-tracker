@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap');
 *,
 *::before,
 *::after {
@@ -18,7 +18,7 @@
   font-weight: 500;
   font-size: 125px;
   letter-spacing: 0.1em;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   text-shadow: 0 0 10px lightgrey;
   color: var(--nav-bg);
   position: absolute;
@@ -30,7 +30,7 @@
   font-weight: 200;
   font-size: 15px;
 
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: red;
   position: absolute;
   top: 10%;

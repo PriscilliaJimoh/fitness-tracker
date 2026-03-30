@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap');
 *,
 *::before,
 *::after {
@@ -10,7 +10,7 @@
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   min-height: 100vh;
   display: flex;
@@ -36,7 +36,7 @@ body {
 }
 
 .container::before {
-  content: ""; /* even though it's empty it's required*/
+  content: ''; /* even though it's empty it's required*/
   position: absolute;
   top: 0;
   left: 0;
@@ -53,7 +53,7 @@ body {
 }
 
 .text {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 52px;
   letter-spacing: 0.06em;
   color: var(--text);
@@ -111,7 +111,7 @@ body {
   border: none;
   outline: none;
   color: var(--text);
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 0.05em;
@@ -167,7 +167,7 @@ body {
   height: 52px;
   border: none;
   border-radius: 2px;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 17px;
   letter-spacing: 0.12em;
   cursor: pointer;

@@ -2,12 +2,11 @@
 
 A full-stack fitness tracking web application built with React and Flask, designed to help users track and manage their fitness journey
 
-
 ## Tech Stack
 
-* Frontend: React, CSS
-* Backend: Flask (Python)
-* Database: SQLite
+- Frontend: React, CSS
+- Backend: Flask (Python)
+- Database: SQLite
 
 ## Features
 

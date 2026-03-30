@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap');
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 50px;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   background: var(--nav-bg);
   padding: 0 15px;
   width: 100%;
@@ -22,7 +22,7 @@
   color: var(--text);
   font-size: 15px;
   font-weight: 400;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 0.1em;
 }
 
@@ -129,7 +129,7 @@
   border-radius: 3px;
   font-size: 19px;
   font-weight: 600;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 0.1em;
   cursor: pointer;
   transition:
