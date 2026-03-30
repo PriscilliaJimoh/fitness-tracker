@@ -1,0 +1,765 @@
+/* Edit this file to customize the User Interface by overriding the existing CSS Styles. 
+ * You can use browser development tools to identify the CSS classes you want to customize.
+ */
+
+/* When using the StoreFront Authentication SDK to return custom forms, a class "customform" is added to each form.
+ * The following commented CSS rule illustrates how to modify the width of form field labels for custom forms.
+ */
+
+/*
+.customform .field {
+    width: 400px;
+}
+*/
+
+/* The following section of the file is reserved for use by StoreFront. */
+/* CITRIX DISCLAIMER: START OF MANAGED SECTION. PLEASE DO NOT EDIT ANY STYLE IN THIS SECTION */
+
+
+.theme-header-bgcolor {
+    background-color: #00467d;
+}
+.theme-header-color {
+    color: #ffffff;
+}
+.theme-highlight-color {
+    color: #808083;
+}
+
+.theme-header-selection-color.selected {
+    background-color: #2578BD;
+}
+
+.large .toolbar.tablet-only {
+	height: 48px;
+}
+
+.large .toolbar-header, .large .toolbar-home-header{
+	color: #00467d;
+	font-size: 15px;
+}
+
+.large .myhome-view .toolbar-home-header, .large .settings-view .toolbar-header {
+    padding-top: 16px;
+}
+
+.largeTiles .storeapp:not(.showDetails):hover, .largeTiles .folder:not(.showDetails):hover, .largeTiles .settings-card:hover {
+    border-color: #00467d;
+}
+
+.largeTiles .store-apps-container .store-apps-title {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-top: 15px;
+}
+
+.largeTiles .storeapp .storeapp-name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.large .search-view .searchInformation, .large .appinfo-view .searchInformation.show {
+    font-size: 16px;
+    color: #00467d;
+    padding-top: 13px;
+}
+
+
+.storeapp-name {
+    font-size: 14px !important;
+}
+
+
+.largeTiles .folder, .largeTiles .storeapp {;
+    border-radius: 20px;
+}
+
+.storeapp-details-dropdown {
+    border-radius: 20px;
+}
+
+.button {
+	border-radius: 5px !important
+}
+
+.logon-logo-container {
+    /* background-image: url('MWS-Large_450.png'); */
+    /* background-size: 450px 70px; */
+    margin-left: 0px;
+}
+/* CITRIX DISCLAIMER: END OF MANAGED SECTION. */
+/* You may add custom styles below this line. */
+
+
+/* START: Login Screen Customisation */
+
+.logon-area {
+    padding: 5px 0;
+    display: block;
+}
+
+.logon-area .logon-spacer {
+    display: none;
+}
+
+.logon-area .logon-spacer.logon-logo-container {
+    display: block;
+    height: 80px;
+    /* background-position: right 50px center; */
+}
+
+
+.logo-container {
+    background-image: url('MWS-Small_white.png');
+    background-size: 210px 50px;
+    height: 50px;
+}
+
+.logo-container {
+    width: 210px;
+}
+
+.logon-area .authentication-content,
+.logon-area .form-content {
+    /* text-align: left; */
+    margin: 0 auto;
+    /* border-left: 1px solid #b7c2ce; */
+    /* padding: 50px 50px; */
+    width: 500px;
+    /* margin: 0 auto; */
+}
+
+.logon-area .authentication-content h1 {
+    color: #00457b;
+}
+
+#hostname {
+    color: rgba(51, 51, 51, 0.46);
+	margin-top: 10px;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+.logon-area .error {
+    color: red;
+}
+
+/* END: Login Screen Customisation */
+
+
+#customBottom {
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#copyrightFooter {
+    display: none;
+}
+
+#theme-header-color {
+    background-color: #BEC0C2;
+    color: #00457b;
+
+}
+
+.web-screen .content-area {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.form-content, .authentication-content {
+    display: block;
+}
+
+
+.web-screen {
+    /*background-color:#b9b9ba;*/
+    background-color: #ffffff;
+    background-image: none;
+    background-size: 100% 100%;
+    /* min-height: 200px; */
+    height:200px;
+    height: 100%;
+}
+
+.button {
+    background-color: #565656 !important;
+    margin: 0 auto !important;
+    padding: 0px 0px 0px 0px !important;
+    text-transform: uppercase !important;
+    font-family: Amplitude-Medium !important;
+    font-size: 17px !important;
+    -webkit-font-smfontsoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: optimizeLegibility !important;
+    border-radius: 5px !important;
+}
+
+.credentialform .plain {
+    color: #104879;
+    font-size: 17px;
+    /* font-weight: 600; */
+    font-family: Amplitude-Medium;
+	-webkit-font-smfontsoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.citrixReceiverLogoAboutBox {
+    background-image: url('MWS-Small.png');
+    background-size: 100% 100%;
+    width: 210px;
+    height: 50px;
+}
+
+.large .citrixReceiverLogoAboutBox {
+    background-image: url('MWS-Small.png');
+    background-size: 100% 100%;
+    width: 210px;
+    height: 50px;
+}
+
+.thirdPartyNoticeLink {
+	pointer-events: none;
+}
+
+.loading-logo {
+    background-image: url('MWS-Small.png');
+    width: 210px;
+    height: 50px;
+}
+
+.thirdPartyNoticeHeader
+{
+    
+    display: none;
+}
+
+.thirdPartyNoticeLink {
+    
+    display: none;
+}
+
+.citrixCopyright {
+    
+    display: none;
+}
+
+._ctxstxt_AllRightsReserved {
+    
+    display: none;
+}
+
+.citrixLink {
+    
+    display: none;
+}
+
+#thebuttonafterlogin {
+    margin-right: 30px;
+    align: right;
+}
+
+#customBottom {
+    
+    display: none;
+}
+
+.large .toggle-view-button.selected {
+    background-color: #00467d;
+}
+
+.vertical-center-inner .content-area .main-text,
+.vertical-center-inner .content-area .detail-text {
+    color: #00457b;
+}
+
+
+#vDesk-logoff {
+    margin-right: 20px;
+}
+
+.back-to-choices {
+    display: none;
+    float: left;
+    width: 500px;
+    text-align: center;
+}
+
+.large .detection-right-links {
+    background: url('../custom/MWS-Large_300.png') no-repeat;
+    padding-left: 560px;
+    background-position: left;
+}
+
+.logon-small.logon-logo-container
+{
+    background: none;
+}
+
+.mth-button {
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 19px 36px 0 36px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    -ms-background-position-y: 15px;
+    background-position: center 15px;
+    -ms-opacity: .6;
+    opacity: 1;
+    height: 100%;
+    color: white;
+    background-size: 28px 28px;
+	
+}
+
+.mth-button:hover {
+    background-color: rgb(37,120,184);
+}
+
+.mtg-bg {
+    height: 23px;
+    width: 23px;
+    background-image: url('../custom/help.svg');
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6px;
+}
+
+
+.largeTiles .storeapp:not(.showDetails):hover, .largeTiles .folder:not(.showDetails):hover, .largeTiles .settings-card:hover {
+    border-color: #00467d;
+}
+
+
+.smallTiles .storeapp .storeapp-name,
+.largeTiles .storeapp .storeapp-name {
+    color: #00457B;
+}
+
+.large .store-view .toolbar-button {
+    color: #00457B;
+}
+
+.theme-highlight-color {
+    color: #00457B;
+}
+
+.loading-screen {
+    background-color: #FFFFFF;
+}
+
+.messagebox.overlay {
+    background-color: #FFFFFF;
+}
+
+.appInfoName {
+    color: #00457B;
+}
+
+.app-description {
+    color: #00457B;
+}
+
+.ATC-link {
+    padding-right: 15px;
+    color: #00457b !important;
+    font-size: 17px;
+    float: right;
+    padding: 3px 15px 5px 5px;
+}
+
+input[type=text],input[type=password] {
+    border-color: #e1e2e3 !important;
+    -webkit-transition: all 0.10s ease-in-out;
+    -moz-transition: all 0.10s ease-in-out;
+    -ms-transition: all 0.10s ease-in-out;
+    -o-transition: all 0.10s ease-in-out;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD !important;
+    border-radius: 5px;
+}
+
+
+div#footerlinks {
+    font-size: 14px;
+    color: #104879;
+    width: 420px;
+    margin: 0 auto;
+    font-family: Amplitude-Regular;
+	-webkit-font-smfontsoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+div#footerlinks a {
+    color: #00457B;
+    text-decoration: none;
+    font-family: Amplitude-Medium !important;
+    font-size: 14px;
+    font-weight: 600 !important;
+	-webkit-font-smfontsoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+
+.authentication-link {
+	text-decoration: underline !important;
+	font-size: 12pt;
+    color: #00457B !important;
+}
+
+.vertical-center-outer {
+    min-height: 100%;
+    min-width: 450px;
+}
+
+.vertical-center-inner {
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    background-color: #00467D;
+    height: 70px;
+}
+
+.copyright-text {
+    font-size: 13px;
+    text-align: left;
+    margin-left: 25px;
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #ffffff;
+    font-family: "Segoe UI",Arial,Helvetica,"Lucida Grande",sans-serif;
+	font-style: normal;
+    font-weight: normal;
+    -webkit-font-smfontsoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.standaloneText.label.error {
+    width: 285px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.credentialform .error:before {
+    top: -6px;
+    left: -34px;
+    width: 32px;
+}
+
+.field.CredentialTypenone {
+    padding-top: 20px !important;
+    margin-left: 30px;
+}
+
+/*input#username {
+    input[type=text]: focus, textarea:focus {    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);  }
+}*/
+
+.credentialform input:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 2px #666;
+    /*padding: 3px 0px 3px 3px;8*/
+    /*margin: 5px 1px 3px 0px;*/
+    /*border: 1px solid #00477b;*/
+}
+
+
+h1.authentication-title.main-text {
+}
+
+select#domain fucs {}
+
+.loading-message {
+    margin-left: -105px;
+    margin-top: -99px;
+}
+
+.JPMC-logo {
+    background-image: url(Logo_JPMC_White_300.png);
+    width: 300px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 9.5px;
+    margin-bottom: 9.5px;
+    float: right;
+    background-position: center;
+}
+
+nav.toolbar.store-toolbar.tablet-only {
+    background-color: #ececeb;
+}
+
+div#customExplicitAuthHeader {
+    height: 76px;
+    background-color: #00467d;
+}
+
+.lower-header {
+    height: 48px;
+    background-color: #ececeb;
+    padding-top: 76px;
+}
+
+.form-container {
+    /* margin-left: 50px; */
+}
+
+.credentialform input[type=text], .credentialform input[type=password] {
+    width: 285px;
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 15px;
+    height: 35px;
+}
+
+select#domain {
+    width: 285px;
+    border-radius: 0px;
+    padding-left: 3px;
+    font-size: 15px;
+    height: 35px;
+    outline: rgb(221, 221, 221);
+    border-radius: 7px;
+}
+
+form.form.insertPoint.credentialform {
+    width: 285px;
+    margin: 0 auto;
+}
+
+.button.default {
+	background-color: #565656 !important;
+}
+
+.web-screen-link
+{
+	color: #00467d !important;
+	font-weight: bold;
+	text-decoration: underline !important;
+}
+
+.buttonscontainer.right {
+    width: 285px;
+    float: none !important;
+}
+
+.field {padding-right: 50px;}
+
+.button.dialog {
+    width: 287px;
+}
+
+div#aboutBoxPopup {
+    box-shadow: 0 0 10px 0 #666;
+}
+
+.forms-authentication-button {
+    width: 285px;
+}
+
+div#mws-lower-header {
+    height: 48px;
+    margin-top: 76px;
+    background-color: #ececeb;
+}
+
+
+div#MWS-message {
+    margin-top: 35px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.myapps-view.toggle-view-button .view-sprite {
+    height: 23px !important;
+}
+
+p.messageBoxText {}
+
+div#genericMessageBoxPopup, div#jpmcDisclaimerBox{
+    left: 50% !important;
+    margin-left: -13% !important;
+    top: 50% !important;
+    margin-top: -16% !important;
+    width: 480px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+	box-shadow: 0 0 10px 0 #666;
+}
+
+.logon-text {
+    color: #565656;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-family: Amplitude-Regular;
+	-webkit-font-smfontsoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: Amplitude;
+  src: local("AmplitudeTF Medium"),
+       local("AmplitudeTF Book"),
+       url("AmplitudeTF-Medium.otf");
+}
+
+body {
+    font-family: "Amplitude-Regular","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	-webkit-font-smfontsoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.right {
+    float: none !important;
+}
+
+.left {
+    float: none !important;
+}
+
+.credentialform .field {
+    padding: 0px;
+}
+
+.field.buttonsrow {
+    padding-top: 25px;
+}
+
+@font-face {
+    font-family: Amplitude-Light;
+    src: url(ee553ccf-2d0c-4e23-9d9d-1067a902018a-2.eot);
+    src: url(ee553ccf-2d0c-4e23-9d9d-1067a902018a-2.eot?) format("embedded-opentype"),url(ee553ccf-2d0c-4e23-9d9d-1067a902018a-3.woff) format("woff");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Amplitude-Regular;
+    src: url(8b10efc3-e37f-468c-9326-3f261bc2b6e9-2.eot);
+    src: url(8b10efc3-e37f-468c-9326-3f261bc2b6e9-2.eot?) format("embedded-opentype"),url(8b10efc3-e37f-468c-9326-3f261bc2b6e9-3.woff) format("woff");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Amplitude-Medium;
+    src: url(5c91d7e8-9155-43e0-a01c-f4c8b4ab0369-2.eot);
+    src: url(5c91d7e8-9155-43e0-a01c-f4c8b4ab0369-2.eot?) format("embedded-opentype"),url(5c91d7e8-9155-43e0-a01c-f4c8b4ab0369-3.woff) format("woff");
+    font-style: normal;
+    font-weight: 700
+}
+
+.content-area {
+    /* padding-top: 12% !important; */
+}
+
+.pluginAuthFooter {bottom: 0px;display: block;position: relative;height: 50px;margin-top: -50px;}
+
+div#customAuthFooter {}
+
+h1.messageBoxTitle {
+    font-weight: 600;
+    color: #00477b;
+}
+
+span.dislaimer-bullets {
+    text-align: left !important;
+}
+
+p.dislaimer-bullets {
+    text-align: left;
+}
+
+ul {
+    font-size: 13px;
+    color: #666;
+}
+
+.messageBoxBulletsHeader {font-weight: 600;}
+
+.user-display-name {
+    font-size: 13px !important;
+}
+
+.storeapp-name {
+    font-size: 16px !important;
+}
+
+li {
+    text-align: left;
+}
+
+.credentialform .button.waiting {
+    background-image: url("../receiver/images/common/authspinner_B0BCD339560CA593.gif") !important;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.high-contrast .credentialform .button.waiting:before {
+    content: url("../receiver/images/common/authspinner_B0BCD339560CA593.gif") !imp
+}
+
+#customTop {
+    padding-top: 0px;
+    background-color: #ff0000;
+}
+
+#mrg-alert{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    background-color: #ececeb;
+}
+
+#mrg-announcement {
+    text-align: justify;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-height: 80px;
+    overflow-y: auto;
+    padding-left: 5px;
+    padding-right: 10px;
+    color: #00467d;
+}
+
+
+#mrg-alertimg{
+    flex-shrink: 0;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.settings-view-toggle {
+    margin-top: 8px;
+}

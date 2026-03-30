@@ -1,31 +1,33 @@
-import React, { useState, useEffect } from "react";
-import { useNavigate, Link } from "react-router";
-import "../../global.css";
-import "./NavBar.css";
-import fitnessLogo from "../Assets/fitness_logo.png";
+import '../../global.css';
+import '@components/NavBar/NavBar.css';
+
+import React, { useEffect, useState } from 'react';
+import { Link, useNavigate } from 'react-router';
+
+import fitnessLogo from '../Assets/fitness_logo.png';
 
 const NavBar = () => {
   const [user, setUser] = useState(() => {
-    const saved = localStorage.getItem("username");
+    const saved = localStorage.getItem('username');
     return saved ? JSON.parse(saved) : null;
   });
   const navigate = useNavigate();
 
   useEffect(() => {
     const checkUser = () => {
-      const saved = localStorage.getItem("username");
+      const saved = localStorage.getItem('username');
       setUser(saved ? JSON.parse(saved) : null);
     };
 
-    window.addEventListener("storage", checkUser);
-    return () => window.removeEventListener("storage", checkUser);
+    window.addEventListener('storage', checkUser);
+    return () => window.removeEventListener('storage', checkUser);
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem("username");
+    localStorage.removeItem('username');
     setUser(null);
-    window.dispatchEvent( new Event("storage"));
-    navigate("/logout");
+    window.dispatchEvent(new Event('storage'));
+    navigate('/logout');
   };
 
   return (

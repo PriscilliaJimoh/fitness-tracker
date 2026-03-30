@@ -1,6 +1,7 @@
-import React from "react";
-import "../../global.css";
-import "./Logout.css";
+import '../../global.css';
+import '@components/Logout/Logout.css';
+
+import React from 'react';
 const Logout = () => {
   return (
     <div className="logged-out-container">

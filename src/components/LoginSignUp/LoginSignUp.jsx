@@ -1,42 +1,44 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router";
-import "../../global.css";
-import "./LoginSignUp.css";
+import '../../global.css';
+import '@components/LoginSignUp/LoginSignUp.css';
 
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router';
+
+/* eslint-disable react/prop-types */
 const LoginSignUp = ({ setUser }) => {
-  const [action, setAction] = useState("Sign Up");
-  const [error, setError] = useState("");
+  const [action, setAction] = useState('Sign Up');
+  const [error, setError] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError("");
+    setError('');
 
     const formData = new FormData(e.target);
     var data = {};
     formData.forEach((value, key) => (data[key] = value));
     console.log(JSON.stringify(data)); // del
 
-    const endpoint = action === "Login" ? "/login" : "/signup";
+    const endpoint = action === 'Login' ? '/login' : '/signup';
 
     try {
       const response = await fetch(`http://127.0.0.1:5000${endpoint}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
       });
 
       const result = await response.json();
 
       if (response.ok) {
-        localStorage.setItem("username", JSON.stringify(result.username));
+        localStorage.setItem('username', JSON.stringify(result.username));
         setUser(result.username);
-        navigate("/home");
+        navigate('/home');
       } else {
-        setError(result.message || "Unable to login, try again");
-      }
+        setError(result.message || 'Unable to login, try again');
+      } // eslint-disable-next-line no-unused-vars
     } catch (error) {
-      setError("Unable to connect");
+      setError('Unable to connect');
     }
   };
 
@@ -48,7 +50,7 @@ const LoginSignUp = ({ setUser }) => {
           <div className="underline"></div>
         </div>
         <div className="inputs">
-          {action === "Login" ? (
+          {action === 'Login' ? (
             <div></div>
           ) : (
             <div className="input">
@@ -66,7 +68,7 @@ const LoginSignUp = ({ setUser }) => {
             <input type="password" name="password" placeholder="Password" />
           </div>
         </div>
-        {action === "Sign Up" ? (
+        {action === 'Sign Up' ? (
           <div></div>
         ) : (
           <div className="forgot-password">
@@ -74,15 +76,15 @@ const LoginSignUp = ({ setUser }) => {
             <span>Reset Here</span>
           </div>
         )}
-        {action === "Login" ? (
+        {action === 'Login' ? (
           <div></div>
         ) : (
           <div className="existing-account">
             Have An Account?
             <span
               onClick={() => {
-                setAction("Login");
-                console.log("clicked");
+                setAction('Login');
+                console.log('clicked');
               }}
             >
               Login Here
@@ -90,7 +92,7 @@ const LoginSignUp = ({ setUser }) => {
           </div>
         )}
         <div className="submit-container">
-          {action === "Login" ? (
+          {action === 'Login' ? (
             <button type="submit" className="submit">
               Login
             </button>

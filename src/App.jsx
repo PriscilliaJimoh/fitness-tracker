@@ -1,13 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router";
 import "./App.css";
 import { useState } from "react";
-import LoginSignUp from "./Components/LoginSignUp/LoginSignUp";
-import NavBar from "./Components/NavBar/NavBar";
-import Landing from "./Components/Landing/Landing";
-// import About from './Components/About/About';
-import Contact from "./Components/Contact/Contact";
-import Logout from "./Components/Logout/Logout";
-import Error from "./Components/Error/Error";
+import LoginSignUp from "@components/LoginSignUp/LoginSignUp";
+import NavBar from "@components/NavBar/NavBar";
+import Landing from "@components/Landing/Landing";
+import Contact from "@components/Contact/Contact";
+import Logout from "@components/Logout/Logout";
+import Error from "@components/Error/Error";
 
 function App() {
   const [user, setUser] = useState(() => {
