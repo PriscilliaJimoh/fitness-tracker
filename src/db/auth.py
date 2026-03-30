@@ -3,13 +3,11 @@ from werkzeug.security import check_password_hash, generate_password_hash
 
 from . import db
 
-hello_bp = Blueprint("hello", __name__)
-signup_bp = Blueprint("signup", __name__)
-login_bp = Blueprint("login", __name__)
-logout_bp = Blueprint("logout", __name__)
+bp = Blueprint("auth", __name__)
 
 
-@hello_bp.route("/hello")
+
+@bp.route("/hello")
 def hello():
 
     database = db.get_db()
@@ -19,7 +17,7 @@ def hello():
     return "Hello, World!", f"{res}"
 
 
-@signup_bp.route("/signup", methods=["POST"])
+@bp.route("/signup", methods=["POST"])
 def signup():
     database = db.get_db()
     data = request.get_json()
@@ -51,7 +49,7 @@ def signup():
     )
 
 
-@login_bp.route("/login", methods=["POST"])
+@bp.route("/login", methods=["POST"])
 def login():
     data = request.get_json()
 
@@ -73,7 +71,7 @@ def login():
     return jsonify({"message": "Logged in!", "username": user["username"]}), 200
 
 
-@logout_bp.route("/logout", methods=["POST"])
+@bp.route("/logout", methods=["POST"])
 def logout():
     # session.clear()
     return jsonify({"message": "Logged out"}), 200

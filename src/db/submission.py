@@ -2,10 +2,10 @@ from flask import Blueprint, jsonify, request
 
 from . import db
 
-submission_bp = Blueprint("submission", __name__)
+bp = Blueprint("submission", __name__)
 
 
-@submission_bp.route("/submission", methods=["POST"])
+@bp.route("/submission", methods=["POST"])
 def submission():
     database = db.get_db()
     data = request.get_json()
